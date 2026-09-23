@@ -1,0 +1,176 @@
+2024-12-24 00:01:08.909 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-24 00:01:08.935 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-24 00:01:08.936 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 00:01:08.937 +02:00 [INF] Hosting environment: Development
+2024-12-24 00:01:08.937 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-24 00:04:07.247 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 148.3136 ms
+2024-12-24 00:06:25.644 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 736.2912 ms
+2024-12-24 00:06:56.346 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-24 00:06:56.348 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-24 00:06:56.643 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 500.2776 ms
+2024-12-24 00:10:03.223 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 170.5776 ms
+2024-12-24 00:10:29.256 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 73.3816 ms
+2024-12-24 00:14:55.764 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 112.0786 ms
+2024-12-24 00:42:01.649 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/25 responded 401 in 13.3691 ms
+2024-12-24 00:42:12.083 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 87.1856 ms
+2024-12-24 00:42:34.538 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/25 responded 200 in 72.7116 ms
+2024-12-24 00:43:36.359 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/12 responded 200 in 5.0821 ms
+2024-12-24 00:49:31.447 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/12 responded 200 in 43.5386 ms
+2024-12-24 00:49:44.395 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/12 responded 200 in 19.7926 ms
+2024-12-24 00:50:01.612 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/42 responded 200 in 3.2370 ms
+2024-12-24 00:50:52.408 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/41 responded 200 in 3.3208 ms
+2024-12-24 00:52:07.621 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/41 responded 200 in 5.1127 ms
+2024-12-24 01:49:15.873 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/41 responded 401 in 1.3967 ms
+2024-12-24 01:49:30.110 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/41 responded 401 in 0.9542 ms
+2024-12-24 01:49:35.432 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 83.2892 ms
+2024-12-24 01:49:47.935 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/41 responded 200 in 28.4646 ms
+2024-12-24 01:50:13.173 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/25 responded 200 in 5.7662 ms
+2024-12-24 01:51:23.131 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/880805e8-b92c-4760-99b1-4a4b4d0b40ad responded 200 in 103.3136 ms
+2024-12-24 01:51:28.851 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/41 responded 200 in 3.6156 ms
+2024-12-24 01:55:56.364 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/41 responded 200 in 3.3655 ms
+2024-12-24 01:58:07.679 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/47 responded 200 in 81.5550 ms
+2024-12-24 02:02:53.688 +02:00 [INF] HTTP GET /api/CryptoNations/InitiateNation/41 responded 405 in 0.4201 ms
+2024-12-24 02:03:11.999 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/41 responded 200 in 23.9755 ms
+2024-12-24 02:03:21.501 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/41 responded 200 in 8.4854 ms
+2024-12-24 02:50:12.722 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-24 02:50:12.739 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-24 02:50:12.740 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 02:50:12.741 +02:00 [INF] Hosting environment: Development
+2024-12-24 02:50:12.741 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-24 02:50:16.796 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/41 responded 401 in 56.6530 ms
+2024-12-24 02:50:55.160 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 739.2405 ms
+2024-12-24 02:51:06.808 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/41 responded 400 in 264.2347 ms
+2024-12-24 02:53:05.968 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 48.9613 ms
+2024-12-24 03:00:09.284 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/42 responded 400 in 16.7828 ms
+2024-12-24 03:00:18.901 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/42 responded 200 in 53.5680 ms
+2024-12-24 03:03:16.401 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/41 responded 200 in 5.7457 ms
+2024-12-24 03:03:19.252 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/41 responded 200 in 2.9033 ms
+2024-12-24 03:10:08.354 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/45 responded 200 in 54.2902 ms
+2024-12-24 03:12:37.596 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/41 responded 200 in 3.6531 ms
+2024-12-24 03:24:09.007 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/E46E4AB4-28B5-404F-9C22-00BA4577BEF7 responded 401 in 1.2600 ms
+2024-12-24 03:24:16.531 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 87.0774 ms
+2024-12-24 03:24:33.692 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/E46E4AB4-28B5-404F-9C22-00BA4577BEF7 responded 200 in 23.6859 ms
+2024-12-24 03:27:31.070 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/"E46E4AB4-28B5-404F-9C22-00BA4577BEF7" responded 404 in 0.1996 ms
+2024-12-24 03:28:02.236 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-24 03:28:02.252 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-24 03:28:02.254 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 03:28:02.254 +02:00 [INF] Hosting environment: Development
+2024-12-24 03:28:02.255 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-24 03:28:05.286 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/"E46E4AB4-28B5-404F-9C22-00BA4577BEF7" responded 404 in 55.8745 ms
+2024-12-24 03:28:17.676 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1125.1310 ms
+2024-12-24 03:29:22.618 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/6B292D5F-63DB-4D0D-A510-2F0CDF5796C1 responded 200 in 474.0484 ms
+2024-12-24 03:31:09.965 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/6B292D5F-63DB-4D0D-A510-2F0CDF5796C1 responded 200 in 17.2580 ms
+2024-12-24 03:33:55.922 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-24 03:33:55.938 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-24 03:33:55.939 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 03:33:55.940 +02:00 [INF] Hosting environment: Development
+2024-12-24 03:33:55.940 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-24 03:34:13.075 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 415 in 205.5216 ms
+2024-12-24 03:34:27.740 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1036.3052 ms
+2024-12-24 03:34:40.997 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/6B292D5F-63DB-4D0D-A510-2F0CDF5796C1 responded 200 in 489.9050 ms
+2024-12-24 03:35:19.469 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/6B292D5F-63DB-4D0D-A510-2F0CDF5796C1 responded 200 in 20.6437 ms
+2024-12-24 03:35:27.327 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/6B292D5F-63DB-4D0D-A510-2F0CDF5796C1 responded 200 in 6.7107 ms
+2024-12-24 03:38:49.035 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 216.8112 ms
+2024-12-24 03:45:30.032 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/42 responded 200 in 24.2391 ms
+2024-12-24 03:51:49.477 +02:00 [INF] HTTP PUT /api/CryptoNations/ExchangeCoinsStepA responded 405 in 0.3796 ms
+2024-12-24 03:52:09.938 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 9.5013 ms
+2024-12-24 03:53:10.610 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.4591 ms
+2024-12-24 03:53:27.359 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 109.9514 ms
+2024-12-24 03:53:35.366 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.2975 ms
+2024-12-24 03:55:17.113 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.4268 ms
+2024-12-24 03:55:29.730 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.4844 ms
+2024-12-24 03:56:45.780 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/6B292D5F-63DB-4D0D-A510-2F0CDF5796C1 responded 200 in 12.0217 ms
+2024-12-24 03:58:05.351 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.2729 ms
+2024-12-24 03:58:13.948 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.3763 ms
+2024-12-24 03:59:30.587 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 1.7323 ms
+2024-12-24 03:59:30.620 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.3102 ms
+2024-12-24 03:59:33.880 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 0.7576 ms
+2024-12-24 03:59:33.889 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.3181 ms
+2024-12-24 04:00:24.383 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 0.5800 ms
+2024-12-24 04:00:24.412 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.1845 ms
+2024-12-24 04:02:39.290 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 31.8765 ms
+2024-12-24 04:03:16.891 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 10.1254 ms
+2024-12-24 04:04:56.213 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 3.0080 ms
+2024-12-24 04:05:33.028 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 10.8103 ms
+2024-12-24 04:06:17.008 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 2.8645 ms
+2024-12-24 04:06:52.501 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 13.8049 ms
+2024-12-24 04:07:43.173 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 9.5847 ms
+2024-12-24 04:08:05.294 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 2.8985 ms
+2024-12-24 04:08:19.341 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 2.0534 ms
+2024-12-24 04:08:34.956 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 1.5670 ms
+2024-12-24 04:08:48.172 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 1.5107 ms
+2024-12-24 04:09:06.466 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 400 in 1.4689 ms
+2024-12-24 04:09:28.957 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 113.9570 ms
+2024-12-24 04:10:05.444 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 2.6917 ms
+2024-12-24 04:10:08.345 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 8.7421 ms
+2024-12-24 04:10:50.524 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 65.4211 ms
+2024-12-24 04:10:50.557 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 8.7746 ms
+2024-12-24 04:11:06.951 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 62.5287 ms
+2024-12-24 04:11:06.980 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 2.5067 ms
+2024-12-24 04:11:34.398 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 68.4506 ms
+2024-12-24 04:11:34.429 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 4.2657 ms
+2024-12-24 04:11:49.852 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 62.9902 ms
+2024-12-24 04:11:49.884 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 2.6878 ms
+2024-12-24 04:12:45.442 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 10.6503 ms
+2024-12-24 04:15:37.557 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 3.1688 ms
+2024-12-24 04:17:09.412 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 2.5033 ms
+2024-12-24 04:17:49.531 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 3.1780 ms
+2024-12-24 04:17:54.734 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 4.0783 ms
+2024-12-24 04:20:57.611 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 109.3543 ms
+2024-12-24 04:20:57.653 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 11.2363 ms
+2024-12-24 04:21:00.374 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 62.5260 ms
+2024-12-24 04:21:00.403 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 2.2970 ms
+2024-12-24 04:21:29.872 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 7.5248 ms
+2024-12-24 04:22:20.932 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 65.1375 ms
+2024-12-24 04:22:20.951 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 9.3989 ms
+2024-12-24 04:22:24.799 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 67.2268 ms
+2024-12-24 04:22:24.813 +02:00 [INF] HTTP GET /api/CryptoNations/SingleNation/41 responded 200 in 2.4276 ms
+2024-12-24 04:23:15.996 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 69.9062 ms
+2024-12-24 04:23:16.039 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/41 responded 200 in 13.4981 ms
+2024-12-24 04:25:09.311 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 69.7043 ms
+2024-12-24 04:25:09.358 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.0969 ms
+2024-12-24 20:21:35.114 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-24 20:21:35.133 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-24 20:21:35.134 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 20:21:35.135 +02:00 [INF] Hosting environment: Development
+2024-12-24 20:21:35.135 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-24 20:26:01.580 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1342.6632 ms
+2024-12-24 20:28:49.189 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 103.8082 ms
+2024-12-24 20:28:49.326 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 109.2096 ms
+2024-12-24 20:30:35.284 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 77.4855 ms
+2024-12-24 20:30:35.322 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 2.8153 ms
+2024-12-24 21:15:24.513 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 105.8497 ms
+2024-12-24 21:17:35.749 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 65.0206 ms
+2024-12-24 21:17:35.768 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 3.4681 ms
+2024-12-24 21:17:50.288 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 63.4778 ms
+2024-12-24 21:17:50.327 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.4465 ms
+2024-12-24 21:19:42.510 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 68.3339 ms
+2024-12-24 21:19:42.527 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.3383 ms
+2024-12-24 21:21:16.493 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 65.4202 ms
+2024-12-24 21:21:16.526 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.3701 ms
+2024-12-24 21:21:20.243 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 62.9128 ms
+2024-12-24 21:21:20.274 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.4082 ms
+2024-12-24 21:22:14.091 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 64.6768 ms
+2024-12-24 21:22:14.131 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.2483 ms
+2024-12-24 21:27:21.330 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 108.2420 ms
+2024-12-24 21:27:21.370 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.4297 ms
+2024-12-24 21:27:24.010 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 77.7555 ms
+2024-12-24 21:27:24.042 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 1.4450 ms
+2024-12-24 21:30:12.819 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 64.7247 ms
+2024-12-24 21:30:13.157 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/41 responded 200 in 330.1403 ms
+2024-12-24 21:30:13.191 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 5.3571 ms
+2024-12-24 22:02:45.431 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-24 22:02:45.447 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-24 22:02:45.449 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 22:02:45.450 +02:00 [INF] Hosting environment: Development
+2024-12-24 22:02:45.450 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-24 22:18:40.221 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1208.9717 ms
+2024-12-24 22:18:40.791 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/41 responded 200 in 549.4118 ms
+2024-12-24 22:18:40.838 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 400 in 27.6191 ms
+2024-12-24 23:52:36.067 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 127.6406 ms
+2024-12-24 23:52:36.101 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/39 responded 200 in 12.8041 ms
+2024-12-24 23:52:36.110 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/39 responded 404 in 28.1333 ms
+2024-12-24 23:52:36.154 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepB responded 400 in 10.6460 ms
+2024-12-24 23:54:51.696 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 69.5421 ms
+2024-12-24 23:54:51.740 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/39 responded 404 in 31.5802 ms
+2024-12-24 23:54:51.744 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/39 responded 200 in 28.2605 ms

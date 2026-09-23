@@ -1,0 +1,150 @@
+2024-12-18 03:28:46.920 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 03:28:46.944 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 03:28:46.975 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 03:28:46.976 +02:00 [INF] Hosting environment: Development
+2024-12-18 03:28:46.977 +02:00 [INF] Content root path: C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-18 03:29:11.263 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1075.3878 ms
+2024-12-18 03:30:04.704 +02:00 [ERR] HTTP PUT /api/Base/InitiateNation/2 responded 500 in 489.9859 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CategoriesModel -> List`1
+CryptoNations.API.Models.Domain.CryptoNationsModels.CategoriesModel -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.CategoriesDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method327(Closure, Object, List`1, ResolutionContext)
+   at CryptoNations.API.Repositories.SQLNationsRepository.InitiateCategories(Int32 id, CategoriesModel GovType, CategoriesModel GunControl, CategoriesModel Alliance) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Repositories\CryptoNations\SQLNationsRepository.cs:line 84
+   at CryptoNations.API.Controllers.BaseController.Update(Int32 id, List`1 PutData) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Controllers\CryptoNations\BaseController.cs:line 75
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-18 03:30:04.767 +02:00 [ERR] 7299dc04-0f3f-4fff-a463-c2784ce79750 : Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CategoriesModel -> List`1
+CryptoNations.API.Models.Domain.CryptoNationsModels.CategoriesModel -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.CategoriesDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CategoriesModel -> List`1
+CryptoNations.API.Models.Domain.CryptoNationsModels.CategoriesModel -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.CategoriesDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method327(Closure, Object, List`1, ResolutionContext)
+   at CryptoNations.API.Repositories.SQLNationsRepository.InitiateCategories(Int32 id, CategoriesModel GovType, CategoriesModel GunControl, CategoriesModel Alliance) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Repositories\CryptoNations\SQLNationsRepository.cs:line 84
+   at CryptoNations.API.Controllers.BaseController.Update(Int32 id, List`1 PutData) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Controllers\CryptoNations\BaseController.cs:line 75
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at CryptoNations.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Middlewares\ExceptionHandlerMiddleware.cs:line 23
+2024-12-18 03:32:05.012 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 03:32:05.034 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 03:32:05.064 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 03:32:05.065 +02:00 [INF] Hosting environment: Development
+2024-12-18 03:32:05.065 +02:00 [INF] Content root path: C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-18 03:32:33.336 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1035.3397 ms
+2024-12-18 03:37:36.700 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 03:37:36.723 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 03:37:36.757 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 03:37:36.758 +02:00 [INF] Hosting environment: Development
+2024-12-18 03:37:36.758 +02:00 [INF] Content root path: C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-18 03:38:00.396 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1027.6495 ms
+2024-12-18 03:43:45.714 +02:00 [ERR] HTTP PUT /api/Base/InitiateNation/2 responded 500 in 244192.8385 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CategoriesModel -> List`1
+CryptoNations.API.Models.Domain.CryptoNationsModels.CategoriesModel -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.CategoriesDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method362(Closure, Object, List`1, ResolutionContext)
+   at CryptoNations.API.Repositories.SQLNationsRepository.InitiateCategories(Int32 id, CategoriesModel GovType, CategoriesModel GunControl, CategoriesModel Alliance) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Repositories\CryptoNations\SQLNationsRepository.cs:line 84
+   at CryptoNations.API.Controllers.BaseController.Update(Int32 id, List`1 PutData) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Controllers\CryptoNations\BaseController.cs:line 75
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-18 03:43:45.762 +02:00 [ERR] 5624322f-54ea-45a5-81f5-ca3002c50425 : Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CategoriesModel -> List`1
+CryptoNations.API.Models.Domain.CryptoNationsModels.CategoriesModel -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.CategoriesDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CategoriesModel -> List`1
+CryptoNations.API.Models.Domain.CryptoNationsModels.CategoriesModel -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.CategoriesDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method362(Closure, Object, List`1, ResolutionContext)
+   at CryptoNations.API.Repositories.SQLNationsRepository.InitiateCategories(Int32 id, CategoriesModel GovType, CategoriesModel GunControl, CategoriesModel Alliance) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Repositories\CryptoNations\SQLNationsRepository.cs:line 84
+   at CryptoNations.API.Controllers.BaseController.Update(Int32 id, List`1 PutData) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Controllers\CryptoNations\BaseController.cs:line 75
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at CryptoNations.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Middlewares\ExceptionHandlerMiddleware.cs:line 23
+2024-12-18 03:58:26.246 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 03:58:26.272 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 03:58:26.302 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 03:58:26.303 +02:00 [INF] Hosting environment: Development
+2024-12-18 03:58:26.304 +02:00 [INF] Content root path: C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-18 04:00:18.639 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 04:00:18.660 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 04:00:18.693 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 04:00:18.694 +02:00 [INF] Hosting environment: Development
+2024-12-18 04:00:18.694 +02:00 [INF] Content root path: C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-18 04:00:38.742 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 999.7773 ms
+2024-12-18 04:05:15.588 +02:00 [INF] HTTP PUT /api/Base/InitiateNation/3 responded 200 in 217918.3484 ms
+2024-12-18 04:22:24.493 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 04:22:24.513 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 04:22:24.540 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 04:22:24.541 +02:00 [INF] Hosting environment: Development
+2024-12-18 04:22:24.541 +02:00 [INF] Content root path: C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-18 04:22:46.330 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1023.9294 ms
+2024-12-18 04:26:52.873 +02:00 [INF] HTTP PUT /api/Base/InitiateNation/5 responded 200 in 47552.9439 ms
+2024-12-18 04:29:56.966 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 04:29:56.987 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 04:29:57.015 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 04:29:57.015 +02:00 [INF] Hosting environment: Development
+2024-12-18 04:29:57.016 +02:00 [INF] Content root path: C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-18 10:29:02.797 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 10:29:02.820 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 10:29:02.851 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 10:29:02.852 +02:00 [INF] Hosting environment: Development
+2024-12-18 10:29:02.853 +02:00 [INF] Content root path: C:\Users\haral\OneDrive\Desktop\VS - letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-18 10:29:38.885 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1251.2150 ms
+2024-12-18 10:30:34.981 +02:00 [INF] HTTP PUT /api/Base/SetAcategory/4 responded 200 in 369.3242 ms
+2024-12-18 10:31:21.942 +02:00 [INF] HTTP PUT /api/Base/SetAcategory/4 responded 200 in 19.8262 ms
+2024-12-18 10:31:46.874 +02:00 [INF] HTTP PUT /api/Base/SetAcategory/4 responded 200 in 11.4028 ms
+2024-12-18 20:04:56.313 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-18 20:04:56.329 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-18 20:04:56.330 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 20:04:56.331 +02:00 [INF] Hosting environment: Development
+2024-12-18 20:04:56.331 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API

@@ -1,0 +1,13 @@
+
+/* For Webkit browsers like Chrome and Safari */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-track {
+  background: var(--Flags-White); /* Background color of the scrollbar track */
+}
+::-webkit-scrollbar-thumb {
+  background: var(--Flags-Gold); /* Color of the scrollbar thumb */
+}
+

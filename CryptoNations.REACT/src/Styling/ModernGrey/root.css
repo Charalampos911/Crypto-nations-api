@@ -1,0 +1,10 @@
+:root{
+    --Grey-50:  #eeeeee;
+    --Grey-100:	#dddddd;
+    --Grey-200: #cccccc;
+    --Grey-400: #bbbbbb;
+    --Grey-600: #9a9a9a;
+    --Grey-font-A:darkslategrey;
+    --Muted-Blue: #4A90E2;
+    --Muted-Blue-hover: rgb(132 189 255);
+}

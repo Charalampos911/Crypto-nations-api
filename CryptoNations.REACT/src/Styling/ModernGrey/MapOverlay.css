@@ -1,0 +1,27 @@
+.svgCont{
+    position: absolute;
+    top: 0px;
+}
+.MobileCountryItem{
+    position: relative;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.MobileCountryItem > div:not(.FancyFlagName){
+    height: 125px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.MobileCountryItem:hover{
+    opacity: 1;
+}
+.FancyFlagName{
+    position: absolute;
+    top: 0px;
+    background-color: var(--Grey-50);
+    color: var(--Grey-font-A);
+    padding: 0 5px 0 5px;
+    border-radius: 10px 0 10px 0;
+}

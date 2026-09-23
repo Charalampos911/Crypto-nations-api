@@ -1,0 +1,1543 @@
+2024-12-29 01:06:42.467 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 01:06:42.486 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 01:06:42.487 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 01:06:42.488 +02:00 [INF] Hosting environment: Development
+2024-12-29 01:06:42.488 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 01:09:13.636 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.8602 ms
+2024-12-29 01:09:14.971 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1326.5721 ms
+2024-12-29 01:09:14.977 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.2734 ms
+2024-12-29 01:09:15.378 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:09:15.380 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:09:15.477 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 491.3075 ms
+2024-12-29 01:09:16.149 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0861 ms
+2024-12-29 01:09:16.207 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-29 01:09:16.334 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 181.8695 ms
+2024-12-29 01:09:16.367 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.1234 ms
+2024-12-29 01:09:16.367 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0256 ms
+2024-12-29 01:09:16.367 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.2015 ms
+2024-12-29 01:09:16.406 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 29.5065 ms
+2024-12-29 01:09:16.406 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 34.4673 ms
+2024-12-29 01:09:16.406 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 32.5687 ms
+2024-12-29 01:09:26.610 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepA responded 204 in 0.1797 ms
+2024-12-29 01:09:26.647 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 33.2278 ms
+2024-12-29 01:09:26.833 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 7.7742 ms
+2024-12-29 01:09:48.942 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepB responded 204 in 0.1012 ms
+2024-12-29 01:17:35.389 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 01:17:35.405 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 01:17:35.406 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 01:17:35.407 +02:00 [INF] Hosting environment: Development
+2024-12-29 01:17:35.408 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 01:19:00.699 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.8278 ms
+2024-12-29 01:19:01.881 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1173.5399 ms
+2024-12-29 01:19:01.887 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.3120 ms
+2024-12-29 01:19:02.309 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:19:02.312 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:19:14.641 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 01:19:14.659 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 01:19:14.661 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 01:19:14.661 +02:00 [INF] Hosting environment: Development
+2024-12-29 01:19:14.662 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 01:19:24.516 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.5430 ms
+2024-12-29 01:19:25.708 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1182.8248 ms
+2024-12-29 01:19:25.713 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.2722 ms
+2024-12-29 01:19:26.144 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:19:26.147 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:19:36.190 +02:00 [ERR] An error occurred using the connection to database 'CryptoNationsDb' on server 'DESKTOP-PT8PNFK\SQLEXPRESS'.
+2024-12-29 01:19:36.203 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CryptoNations.API.Data.CryptoNationsDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "CryptoNationsDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-PT8PNFK\haralabos911'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:c3d27bc1-c941-4f12-aff9-593266adeaeb
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "CryptoNationsDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-PT8PNFK\haralabos911'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:c3d27bc1-c941-4f12-aff9-593266adeaeb
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-12-29 01:19:36.292 +02:00 [ERR] HTTP GET /api/CryptoNations/NationsWithQuery responded 500 in 10569.3938 ms
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "CryptoNationsDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-PT8PNFK\haralabos911'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:c3d27bc1-c941-4f12-aff9-593266adeaeb
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at CryptoNations.API.Repositories.SQLNationsRepository.NationsWithQuery(String filterOn, String filterQuery, String sortBy, Boolean isAscending, Int32 pageNumber, Int32 pageSize) in C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API\Repositories\CryptoNations\SQLNationsRepository.cs:line 155
+   at CryptoNations.API.Controllers.CryptoNationsController.NationsWithQuery(String filterOn, String filterQuery, String sortBy, Nullable`1 isAscending, Int32 pageNumber, Int32 pageSize) in C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API\Controllers\CryptoNations\CryptoNationsController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-29 01:19:36.362 +02:00 [ERR] c2d2b77b-b26a-4837-9f7b-d010d74d7cd4 : An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "CryptoNationsDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-PT8PNFK\haralabos911'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:c3d27bc1-c941-4f12-aff9-593266adeaeb
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at CryptoNations.API.Repositories.SQLNationsRepository.NationsWithQuery(String filterOn, String filterQuery, String sortBy, Boolean isAscending, Int32 pageNumber, Int32 pageSize) in C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API\Repositories\CryptoNations\SQLNationsRepository.cs:line 155
+   at CryptoNations.API.Controllers.CryptoNationsController.NationsWithQuery(String filterOn, String filterQuery, String sortBy, Nullable`1 isAscending, Int32 pageNumber, Int32 pageSize) in C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API\Controllers\CryptoNations\CryptoNationsController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at CryptoNations.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API\Middlewares\ExceptionHandlerMiddleware.cs:line 23
+2024-12-29 01:19:36.422 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Reflection.MethodBase' instances is not supported. Path: $.Ex.TargetSite.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Reflection.MethodBase' instances is not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.WriteAsJsonAsyncSlow[TValue](Stream body, TValue value, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at CryptoNations.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API\Middlewares\ExceptionHandlerMiddleware.cs:line 44
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-29 01:20:09.811 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 78.3333 ms
+2024-12-29 01:20:09.893 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-29 01:20:19.917 +02:00 [ERR] An error occurred using the connection to database 'CryptoNationsDb' on server 'DESKTOP-PT8PNFK\SQLEXPRESS'.
+2024-12-29 01:20:19.920 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CryptoNations.API.Data.CryptoNationsDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "CryptoNationsDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-PT8PNFK\haralabos911'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:b402c150-bc61-46db-8dde-4f9250ecd168
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "CryptoNationsDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-PT8PNFK\haralabos911'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:b402c150-bc61-46db-8dde-4f9250ecd168
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-12-29 01:20:19.981 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 404 in 10134.8735 ms
+2024-12-29 01:23:01.021 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 01:23:01.046 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 01:23:01.048 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 01:23:01.049 +02:00 [INF] Hosting environment: Development
+2024-12-29 01:23:01.050 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 01:23:08.247 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.6993 ms
+2024-12-29 01:23:09.452 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1195.3069 ms
+2024-12-29 01:23:09.459 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.3279 ms
+2024-12-29 01:23:09.903 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:23:09.905 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:23:10.002 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 533.8070 ms
+2024-12-29 01:23:11.415 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1658 ms
+2024-12-29 01:23:11.480 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-29 01:23:11.571 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 151.4813 ms
+2024-12-29 01:23:13.543 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/1 responded 204 in 0.0949 ms
+2024-12-29 01:23:13.705 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/1 responded 200 in 157.4395 ms
+2024-12-29 01:23:13.711 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0538 ms
+2024-12-29 01:23:13.730 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 15.0663 ms
+2024-12-29 01:23:13.778 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 40.0001 ms
+2024-12-29 01:23:13.813 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0554 ms
+2024-12-29 01:23:13.813 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0651 ms
+2024-12-29 01:23:13.813 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0369 ms
+2024-12-29 01:23:13.849 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 30.6056 ms
+2024-12-29 01:23:13.850 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 32.9206 ms
+2024-12-29 01:23:13.852 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 31.7131 ms
+2024-12-29 01:23:17.704 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/UpdateTheCoin/1 responded 204 in 0.0622 ms
+2024-12-29 01:23:17.748 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/1 responded 200 in 38.4813 ms
+2024-12-29 01:23:17.758 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0820 ms
+2024-12-29 01:23:17.799 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 39.7692 ms
+2024-12-29 01:23:17.800 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 41.5460 ms
+2024-12-29 01:23:17.800 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 40.4251 ms
+2024-12-29 01:23:17.820 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 53.8183 ms
+2024-12-29 01:23:18.460 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/1 responded 200 in 7.4881 ms
+2024-12-29 01:23:18.485 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 7.4016 ms
+2024-12-29 01:23:18.487 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 8.3912 ms
+2024-12-29 01:23:18.488 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 9.1934 ms
+2024-12-29 01:23:18.506 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 27.9223 ms
+2024-12-29 01:23:28.526 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SellOrder/16e1f789-64cc-442f-a685-6798b9236294 responded 204 in 0.3362 ms
+2024-12-29 01:23:28.545 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/16e1f789-64cc-442f-a685-6798b9236294 responded 200 in 14.7700 ms
+2024-12-29 01:23:28.558 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0874 ms
+2024-12-29 01:23:28.558 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1529 ms
+2024-12-29 01:23:28.559 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0769 ms
+2024-12-29 01:23:28.559 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0291 ms
+2024-12-29 01:23:28.566 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 4.3593 ms
+2024-12-29 01:23:28.572 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 5.7395 ms
+2024-12-29 01:23:28.574 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 3.4467 ms
+2024-12-29 01:23:28.588 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 24.1920 ms
+2024-12-29 01:24:16.531 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0991 ms
+2024-12-29 01:24:16.550 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 14.5974 ms
+2024-12-29 01:24:19.802 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/2 responded 204 in 0.0647 ms
+2024-12-29 01:24:19.825 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/2 responded 200 in 17.9816 ms
+2024-12-29 01:24:19.830 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0348 ms
+2024-12-29 01:24:19.843 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 9.1347 ms
+2024-12-29 01:24:19.862 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.5167 ms
+2024-12-29 01:24:19.889 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/2 responded 204 in 0.0177 ms
+2024-12-29 01:24:19.889 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/2 responded 204 in 0.1392 ms
+2024-12-29 01:24:19.889 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/2 responded 204 in 0.0387 ms
+2024-12-29 01:24:19.911 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 15.4941 ms
+2024-12-29 01:24:19.911 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 17.4409 ms
+2024-12-29 01:24:19.913 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 10.7260 ms
+2024-12-29 01:24:26.979 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/UpdateTheCoin/2 responded 204 in 0.0425 ms
+2024-12-29 01:24:26.990 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/2 responded 200 in 6.8871 ms
+2024-12-29 01:24:27.008 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0724 ms
+2024-12-29 01:24:27.012 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/2 responded 204 in 0.0343 ms
+2024-12-29 01:24:27.012 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/2 responded 204 in 0.0321 ms
+2024-12-29 01:24:27.012 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/2 responded 204 in 0.0106 ms
+2024-12-29 01:24:27.026 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 8.1627 ms
+2024-12-29 01:24:27.058 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 38.5394 ms
+2024-12-29 01:24:27.060 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 31.8150 ms
+2024-12-29 01:24:27.069 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 52.9578 ms
+2024-12-29 01:24:28.581 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/2 responded 200 in 9.2344 ms
+2024-12-29 01:24:28.604 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 6.9286 ms
+2024-12-29 01:24:28.604 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 6.1662 ms
+2024-12-29 01:24:28.607 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 8.3785 ms
+2024-12-29 01:24:28.617 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 19.3169 ms
+2024-12-29 01:24:33.343 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepA responded 204 in 0.0339 ms
+2024-12-29 01:24:33.378 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 30.1825 ms
+2024-12-29 01:24:33.565 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 8.1654 ms
+2024-12-29 01:24:47.644 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.0290 ms
+2024-12-29 01:24:53.232 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 5583.8163 ms
+2024-12-29 01:24:53.247 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0868 ms
+2024-12-29 01:24:53.266 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 15.2972 ms
+2024-12-29 01:24:54.897 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.0450 ms
+2024-12-29 01:24:54.909 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 8.1487 ms
+2024-12-29 01:24:54.936 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.9917 ms
+2024-12-29 01:25:02.147 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepA responded 204 in 1.3417 ms
+2024-12-29 01:25:02.160 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 6.3575 ms
+2024-12-29 01:25:02.490 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 5.6632 ms
+2024-12-29 01:25:20.411 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepB responded 204 in 0.6842 ms
+2024-12-29 01:31:38.186 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 01:31:38.202 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 01:31:38.204 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 01:31:38.204 +02:00 [INF] Hosting environment: Development
+2024-12-29 01:31:38.205 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 01:32:16.660 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.6803 ms
+2024-12-29 01:32:17.870 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1200.2681 ms
+2024-12-29 01:32:17.877 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.3698 ms
+2024-12-29 01:32:18.322 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:32:18.324 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:32:18.429 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 543.2377 ms
+2024-12-29 01:34:14.388 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.2154 ms
+2024-12-29 01:34:14.458 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-29 01:34:14.551 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 156.6367 ms
+2024-12-29 01:34:16.577 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/1 responded 204 in 0.1093 ms
+2024-12-29 01:34:16.748 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/1 responded 200 in 166.9406 ms
+2024-12-29 01:34:16.755 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0528 ms
+2024-12-29 01:34:16.772 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 14.6272 ms
+2024-12-29 01:34:16.818 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 38.3851 ms
+2024-12-29 01:34:16.854 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.1006 ms
+2024-12-29 01:34:16.854 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0436 ms
+2024-12-29 01:34:16.854 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0969 ms
+2024-12-29 01:34:16.915 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 54.8286 ms
+2024-12-29 01:34:16.915 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 56.4326 ms
+2024-12-29 01:34:16.915 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 26.5845 ms
+2024-12-29 01:34:23.558 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.3224 ms
+2024-12-29 01:34:23.604 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 42.0687 ms
+2024-12-29 01:34:23.616 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0458 ms
+2024-12-29 01:34:23.647 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 27.6138 ms
+2024-12-29 01:34:24.823 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 13.4283 ms
+2024-12-29 01:34:24.866 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.3681 ms
+2024-12-29 01:34:26.504 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 9.4504 ms
+2024-12-29 01:34:26.539 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.5855 ms
+2024-12-29 01:34:27.098 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.8659 ms
+2024-12-29 01:34:27.132 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.9772 ms
+2024-12-29 01:34:28.317 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 11.4037 ms
+2024-12-29 01:34:28.351 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 20.2195 ms
+2024-12-29 01:34:29.483 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.2002 ms
+2024-12-29 01:34:29.495 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.6582 ms
+2024-12-29 01:34:29.512 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0439 ms
+2024-12-29 01:34:29.534 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.2557 ms
+2024-12-29 01:34:30.472 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.4269 ms
+2024-12-29 01:34:30.506 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.1530 ms
+2024-12-29 01:34:31.274 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.8810 ms
+2024-12-29 01:34:31.312 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 20.6446 ms
+2024-12-29 01:34:32.768 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 13.6582 ms
+2024-12-29 01:34:32.807 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 20.7466 ms
+2024-12-29 01:34:33.903 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.9377 ms
+2024-12-29 01:34:33.931 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.5193 ms
+2024-12-29 01:34:45.536 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/UpdateTheCoin/1 responded 204 in 0.0451 ms
+2024-12-29 01:34:45.578 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/1 responded 200 in 37.4728 ms
+2024-12-29 01:34:45.589 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0880 ms
+2024-12-29 01:34:45.590 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0179 ms
+2024-12-29 01:34:45.590 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0611 ms
+2024-12-29 01:34:45.590 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.1189 ms
+2024-12-29 01:34:45.614 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 18.5033 ms
+2024-12-29 01:34:45.621 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 18.2655 ms
+2024-12-29 01:34:45.623 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 20.3898 ms
+2024-12-29 01:34:45.636 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 43.0797 ms
+2024-12-29 01:34:46.120 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/1 responded 200 in 7.5089 ms
+2024-12-29 01:34:46.175 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 39.7457 ms
+2024-12-29 01:34:46.177 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 41.5968 ms
+2024-12-29 01:34:46.176 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 41.1765 ms
+2024-12-29 01:34:46.195 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 59.9567 ms
+2024-12-29 01:34:51.631 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SellOrder/a7979583-2a08-4455-a3ed-d5aa9e886861 responded 204 in 0.0649 ms
+2024-12-29 01:34:51.649 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/a7979583-2a08-4455-a3ed-d5aa9e886861 responded 200 in 13.5661 ms
+2024-12-29 01:34:51.666 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0404 ms
+2024-12-29 01:34:51.667 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.1722 ms
+2024-12-29 01:34:51.667 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0617 ms
+2024-12-29 01:34:51.667 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0286 ms
+2024-12-29 01:34:51.676 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 4.1148 ms
+2024-12-29 01:34:51.678 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 3.4497 ms
+2024-12-29 01:34:51.682 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 4.5202 ms
+2024-12-29 01:34:51.695 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 25.1957 ms
+2024-12-29 01:35:03.102 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0326 ms
+2024-12-29 01:35:03.119 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.4290 ms
+2024-12-29 01:35:08.055 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/2 responded 204 in 0.0424 ms
+2024-12-29 01:35:08.087 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/2 responded 200 in 17.0101 ms
+2024-12-29 01:35:08.093 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.1157 ms
+2024-12-29 01:35:08.104 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.3835 ms
+2024-12-29 01:35:08.110 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0710 ms
+2024-12-29 01:35:08.124 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.7837 ms
+2024-12-29 01:35:08.151 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/2 responded 204 in 0.0233 ms
+2024-12-29 01:35:08.151 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/2 responded 204 in 0.0233 ms
+2024-12-29 01:35:08.152 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/2 responded 204 in 0.0198 ms
+2024-12-29 01:35:08.158 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 3.5151 ms
+2024-12-29 01:35:08.161 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 4.3082 ms
+2024-12-29 01:35:08.165 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 5.4385 ms
+2024-12-29 01:35:13.806 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.0279 ms
+2024-12-29 01:35:13.832 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 22.6373 ms
+2024-12-29 01:35:13.845 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0368 ms
+2024-12-29 01:35:13.859 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.6588 ms
+2024-12-29 01:35:15.889 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 9.0839 ms
+2024-12-29 01:35:15.919 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.5492 ms
+2024-12-29 01:35:16.305 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 12.2318 ms
+2024-12-29 01:35:16.331 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 13.7679 ms
+2024-12-29 01:35:16.778 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 12.0217 ms
+2024-12-29 01:35:16.805 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 13.3777 ms
+2024-12-29 01:35:22.346 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.0518 ms
+2024-12-29 01:35:22.357 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 6.1732 ms
+2024-12-29 01:35:22.368 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0422 ms
+2024-12-29 01:35:22.369 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0104 ms
+2024-12-29 01:35:22.384 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.4444 ms
+2024-12-29 01:35:22.397 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.3078 ms
+2024-12-29 01:35:25.850 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 9.1251 ms
+2024-12-29 01:35:25.878 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 15.7705 ms
+2024-12-29 01:35:25.891 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.4691 ms
+2024-12-29 01:35:28.720 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.1766 ms
+2024-12-29 01:35:28.730 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 6.0128 ms
+2024-12-29 01:35:28.740 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0205 ms
+2024-12-29 01:35:28.741 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0628 ms
+2024-12-29 01:35:28.756 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.2283 ms
+2024-12-29 01:35:28.769 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.2788 ms
+2024-12-29 01:35:33.179 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 8.5111 ms
+2024-12-29 01:35:33.208 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.8089 ms
+2024-12-29 01:35:33.222 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 13.0140 ms
+2024-12-29 01:35:36.587 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.2632 ms
+2024-12-29 01:35:36.597 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 5.1605 ms
+2024-12-29 01:35:36.609 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0724 ms
+2024-12-29 01:35:36.609 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.1150 ms
+2024-12-29 01:35:36.610 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0106 ms
+2024-12-29 01:35:36.625 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.3669 ms
+2024-12-29 01:35:36.637 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.8987 ms
+2024-12-29 01:35:36.650 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.8217 ms
+2024-12-29 01:35:41.852 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.0220 ms
+2024-12-29 01:35:41.861 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 5.4905 ms
+2024-12-29 01:35:41.871 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0806 ms
+2024-12-29 01:35:41.872 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0110 ms
+2024-12-29 01:35:41.873 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0709 ms
+2024-12-29 01:35:41.887 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.3755 ms
+2024-12-29 01:35:41.900 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.1857 ms
+2024-12-29 01:35:41.912 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.8665 ms
+2024-12-29 01:35:47.260 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.0335 ms
+2024-12-29 01:35:47.273 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 8.9817 ms
+2024-12-29 01:35:47.288 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0212 ms
+2024-12-29 01:35:47.289 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0126 ms
+2024-12-29 01:35:47.290 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.3658 ms
+2024-12-29 01:35:47.296 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 1.7654 ms
+2024-12-29 01:35:47.315 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 15.3452 ms
+2024-12-29 01:35:47.328 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.2471 ms
+2024-12-29 01:35:47.340 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.5555 ms
+2024-12-29 01:35:47.352 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.4864 ms
+2024-12-29 01:35:49.805 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 9.0492 ms
+2024-12-29 01:35:49.832 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.6960 ms
+2024-12-29 01:35:49.849 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 17.1155 ms
+2024-12-29 01:35:49.863 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.6217 ms
+2024-12-29 01:35:49.876 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.5374 ms
+2024-12-29 01:35:49.889 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.4704 ms
+2024-12-29 01:39:24.763 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepA responded 204 in 0.0194 ms
+2024-12-29 01:39:24.796 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 27.2146 ms
+2024-12-29 01:39:24.948 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 5.3527 ms
+2024-12-29 01:39:27.014 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepB responded 204 in 0.1150 ms
+2024-12-29 01:45:34.815 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 01:45:34.834 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 01:45:34.836 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 01:45:34.837 +02:00 [INF] Hosting environment: Development
+2024-12-29 01:45:34.838 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 01:46:54.413 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.7504 ms
+2024-12-29 01:46:55.597 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1175.8057 ms
+2024-12-29 01:46:55.603 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.3409 ms
+2024-12-29 01:46:56.042 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:46:56.045 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 01:46:56.115 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 503.1260 ms
+2024-12-29 01:46:57.016 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1649 ms
+2024-12-29 01:46:57.078 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-29 01:46:57.169 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 150.1190 ms
+2024-12-29 01:46:59.367 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/1 responded 204 in 0.1153 ms
+2024-12-29 01:46:59.526 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/1 responded 200 in 154.9555 ms
+2024-12-29 01:46:59.532 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0450 ms
+2024-12-29 01:46:59.549 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 14.5521 ms
+2024-12-29 01:46:59.594 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 38.5037 ms
+2024-12-29 01:46:59.626 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0544 ms
+2024-12-29 01:46:59.626 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.1320 ms
+2024-12-29 01:46:59.626 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0330 ms
+2024-12-29 01:46:59.657 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 24.9609 ms
+2024-12-29 01:46:59.658 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 26.9056 ms
+2024-12-29 01:46:59.659 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 29.4746 ms
+2024-12-29 01:47:01.840 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0729 ms
+2024-12-29 01:47:01.883 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 39.7762 ms
+2024-12-29 01:47:01.912 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.5637 ms
+2024-12-29 01:47:08.630 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/UpdateTheCoin/1 responded 204 in 0.0501 ms
+2024-12-29 01:47:08.671 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/1 responded 200 in 38.1081 ms
+2024-12-29 01:47:08.681 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.1210 ms
+2024-12-29 01:47:08.681 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1180 ms
+2024-12-29 01:47:08.684 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0275 ms
+2024-12-29 01:47:08.682 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0216 ms
+2024-12-29 01:47:08.702 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 9.3663 ms
+2024-12-29 01:47:08.711 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 11.2322 ms
+2024-12-29 01:47:08.715 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 17.6772 ms
+2024-12-29 01:47:08.727 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 34.6329 ms
+2024-12-29 01:47:09.339 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/1 responded 200 in 6.1027 ms
+2024-12-29 01:47:09.359 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 10.3985 ms
+2024-12-29 01:47:09.362 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 13.7688 ms
+2024-12-29 01:47:09.366 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 17.3197 ms
+2024-12-29 01:47:09.380 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 31.3223 ms
+2024-12-29 01:47:20.991 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SellOrder/01a47fe7-fc91-4158-ba72-f2fa21fc9deb responded 204 in 0.1268 ms
+2024-12-29 01:47:21.008 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/01a47fe7-fc91-4158-ba72-f2fa21fc9deb responded 200 in 14.3651 ms
+2024-12-29 01:47:21.019 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0435 ms
+2024-12-29 01:47:21.019 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0721 ms
+2024-12-29 01:47:21.019 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.1304 ms
+2024-12-29 01:47:21.019 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.1305 ms
+2024-12-29 01:47:21.033 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 7.1898 ms
+2024-12-29 01:47:21.035 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 7.0657 ms
+2024-12-29 01:47:21.036 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 6.8182 ms
+2024-12-29 01:47:21.053 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 31.3778 ms
+2024-12-29 01:47:23.887 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0381 ms
+2024-12-29 01:47:23.902 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.6947 ms
+2024-12-29 01:47:26.174 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/2 responded 204 in 0.1279 ms
+2024-12-29 01:47:26.190 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/2 responded 200 in 13.1372 ms
+2024-12-29 01:47:26.195 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0785 ms
+2024-12-29 01:47:26.206 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.8050 ms
+2024-12-29 01:47:26.224 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 12.0463 ms
+2024-12-29 01:47:26.245 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/2 responded 204 in 0.1650 ms
+2024-12-29 01:47:26.245 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/2 responded 204 in 0.1559 ms
+2024-12-29 01:47:26.245 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/2 responded 204 in 0.0930 ms
+2024-12-29 01:47:26.253 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 3.9028 ms
+2024-12-29 01:47:26.260 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 8.9818 ms
+2024-12-29 01:47:26.261 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 8.2674 ms
+2024-12-29 01:47:29.495 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/2 responded 204 in 0.0889 ms
+2024-12-29 01:47:29.506 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/2 responded 200 in 8.2952 ms
+2024-12-29 01:47:29.515 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0285 ms
+2024-12-29 01:47:29.530 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 11.9853 ms
+2024-12-29 01:47:34.736 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/UpdateTheCoin/2 responded 204 in 0.0875 ms
+2024-12-29 01:47:34.744 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/2 responded 200 in 4.8309 ms
+2024-12-29 01:47:34.752 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0432 ms
+2024-12-29 01:47:34.753 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/2 responded 204 in 0.0125 ms
+2024-12-29 01:47:34.753 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/2 responded 204 in 0.0718 ms
+2024-12-29 01:47:34.753 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/2 responded 204 in 0.0690 ms
+2024-12-29 01:47:34.760 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 3.0905 ms
+2024-12-29 01:47:34.764 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 3.5106 ms
+2024-12-29 01:47:34.766 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 3.7392 ms
+2024-12-29 01:47:34.773 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 18.1740 ms
+2024-12-29 01:47:35.076 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/2 responded 200 in 4.9885 ms
+2024-12-29 01:47:35.090 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 4.3923 ms
+2024-12-29 01:47:35.092 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 6.5489 ms
+2024-12-29 01:47:35.094 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 8.7499 ms
+2024-12-29 01:47:35.103 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 17.7407 ms
+2024-12-29 01:47:41.809 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepA responded 204 in 0.0326 ms
+2024-12-29 01:47:41.835 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 23.2192 ms
+2024-12-29 01:47:42.048 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 5.4412 ms
+2024-12-29 01:47:53.681 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepB responded 204 in 0.1404 ms
+2024-12-29 01:50:20.435 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepB responded 200 in 146737.2710 ms
+2024-12-29 01:50:20.447 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0241 ms
+2024-12-29 01:50:20.448 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/2 responded 204 in 0.0140 ms
+2024-12-29 01:50:20.447 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/2 responded 204 in 0.0108 ms
+2024-12-29 01:50:20.448 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/2 responded 204 in 0.0131 ms
+2024-12-29 01:50:20.457 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 3.6990 ms
+2024-12-29 01:50:20.472 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 16.5771 ms
+2024-12-29 01:50:20.472 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 12.9628 ms
+2024-12-29 01:50:20.484 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 32.6225 ms
+2024-12-29 01:50:30.005 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepA responded 204 in 0.0202 ms
+2024-12-29 01:50:30.022 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 10.9551 ms
+2024-12-29 01:50:30.234 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepA responded 200 in 6.3455 ms
+2024-12-29 01:50:31.707 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/ExchangeCoinsStepB responded 204 in 0.1351 ms
+2024-12-29 01:50:52.807 +02:00 [INF] HTTP POST /api/CryptoNations/ExchangeCoinsStepB responded 200 in 21092.1807 ms
+2024-12-29 01:50:52.823 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/2 responded 204 in 0.0198 ms
+2024-12-29 01:50:52.824 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/2 responded 204 in 0.0974 ms
+2024-12-29 01:50:52.823 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/2 responded 204 in 0.0076 ms
+2024-12-29 01:50:52.824 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/2 responded 204 in 0.0074 ms
+2024-12-29 01:50:52.844 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 15.0288 ms
+2024-12-29 01:50:52.844 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 13.6272 ms
+2024-12-29 01:50:52.850 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 15.0940 ms
+2024-12-29 01:50:52.864 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/2 responded 200 in 36.0181 ms
+2024-12-29 01:51:14.438 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0315 ms
+2024-12-29 01:51:14.483 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 32.2480 ms
+2024-12-29 01:51:14.507 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0660 ms
+2024-12-29 01:51:14.508 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0584 ms
+2024-12-29 01:51:14.508 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0530 ms
+2024-12-29 01:51:14.516 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 4.6276 ms
+2024-12-29 01:51:14.521 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 6.3066 ms
+2024-12-29 01:51:14.528 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 17.7957 ms
+2024-12-29 03:56:23.615 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 03:56:23.632 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 03:56:23.633 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 03:56:23.633 +02:00 [INF] Hosting environment: Development
+2024-12-29 03:56:23.634 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 03:57:01.551 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.9943 ms
+2024-12-29 03:57:02.315 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 755.6519 ms
+2024-12-29 03:57:02.321 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.1873 ms
+2024-12-29 03:57:02.532 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 03:57:02.533 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 03:57:02.609 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 283.2564 ms
+2024-12-29 03:58:03.845 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.2488 ms
+2024-12-29 03:58:03.887 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-29 03:58:03.945 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 96.1919 ms
+2024-12-29 03:58:06.399 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/1 responded 204 in 0.2063 ms
+2024-12-29 03:58:06.516 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/1 responded 200 in 112.4334 ms
+2024-12-29 03:58:06.522 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0342 ms
+2024-12-29 03:58:06.536 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 11.6054 ms
+2024-12-29 03:58:06.567 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 25.4593 ms
+2024-12-29 03:58:06.602 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0593 ms
+2024-12-29 03:58:06.602 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0318 ms
+2024-12-29 03:58:06.603 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0758 ms
+2024-12-29 03:58:06.635 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 24.0141 ms
+2024-12-29 03:58:06.635 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 25.8340 ms
+2024-12-29 03:58:06.636 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 27.8811 ms
+2024-12-29 03:58:19.096 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0879 ms
+2024-12-29 03:58:19.139 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 38.1806 ms
+2024-12-29 03:58:19.149 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0398 ms
+2024-12-29 03:58:19.166 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2904 ms
+2024-12-29 03:58:22.648 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 9.0522 ms
+2024-12-29 03:58:22.683 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 20.2552 ms
+2024-12-29 03:58:29.367 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0930 ms
+2024-12-29 03:58:29.381 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 9.3843 ms
+2024-12-29 03:58:29.394 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0266 ms
+2024-12-29 03:58:29.409 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 11.3679 ms
+2024-12-29 03:58:31.725 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.2720 ms
+2024-12-29 03:58:31.758 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.5149 ms
+2024-12-29 04:02:39.971 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0514 ms
+2024-12-29 04:02:39.987 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 10.4105 ms
+2024-12-29 04:02:39.995 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0293 ms
+2024-12-29 04:02:40.008 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 11.4643 ms
+2024-12-29 04:02:43.121 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.2315 ms
+2024-12-29 04:02:43.147 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.1889 ms
+2024-12-29 04:02:44.350 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.9235 ms
+2024-12-29 04:02:44.375 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 11.8442 ms
+2024-12-29 04:02:45.838 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0542 ms
+2024-12-29 04:02:45.850 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.7414 ms
+2024-12-29 04:02:45.859 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0861 ms
+2024-12-29 04:02:45.874 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.1892 ms
+2024-12-29 04:03:25.909 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0368 ms
+2024-12-29 04:03:25.920 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.9111 ms
+2024-12-29 04:03:25.928 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0362 ms
+2024-12-29 04:03:25.942 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.2305 ms
+2024-12-29 04:03:27.672 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.8174 ms
+2024-12-29 04:03:27.699 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.5391 ms
+2024-12-29 04:03:28.717 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.4419 ms
+2024-12-29 04:03:28.752 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 21.0384 ms
+2024-12-29 04:03:34.061 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 04:03:34.083 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 04:03:34.084 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 04:03:34.085 +02:00 [INF] Hosting environment: Development
+2024-12-29 04:03:34.085 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 04:03:38.803 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.0147 ms
+2024-12-29 04:03:39.569 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 757.7562 ms
+2024-12-29 04:03:39.574 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.2607 ms
+2024-12-29 04:03:39.800 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 04:03:39.802 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 04:03:39.876 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 295.7347 ms
+2024-12-29 04:03:40.706 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1052 ms
+2024-12-29 04:03:40.766 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-29 04:03:40.853 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 143.9496 ms
+2024-12-29 04:03:40.880 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0649 ms
+2024-12-29 04:03:40.880 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0665 ms
+2024-12-29 04:03:40.881 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0277 ms
+2024-12-29 04:03:40.915 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 25.0535 ms
+2024-12-29 04:03:40.917 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 29.4544 ms
+2024-12-29 04:03:40.918 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 31.6405 ms
+2024-12-29 04:03:46.913 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.3538 ms
+2024-12-29 04:03:47.043 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 125.1217 ms
+2024-12-29 04:03:47.053 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0444 ms
+2024-12-29 04:03:47.093 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 37.1840 ms
+2024-12-29 04:03:49.980 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 10.5911 ms
+2024-12-29 04:03:50.013 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.7818 ms
+2024-12-29 04:03:51.539 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 10.9936 ms
+2024-12-29 04:03:51.572 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.9969 ms
+2024-12-29 04:03:54.846 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1205 ms
+2024-12-29 04:03:54.858 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.8616 ms
+2024-12-29 04:03:54.868 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0427 ms
+2024-12-29 04:03:54.889 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.7010 ms
+2024-12-29 04:03:56.386 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 10.0646 ms
+2024-12-29 04:03:56.416 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.3095 ms
+2024-12-29 04:03:57.448 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 9.4663 ms
+2024-12-29 04:03:57.477 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.9955 ms
+2024-12-29 04:04:03.871 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0514 ms
+2024-12-29 04:04:03.881 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.9952 ms
+2024-12-29 04:04:03.888 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0377 ms
+2024-12-29 04:04:03.890 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0464 ms
+2024-12-29 04:04:03.912 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.3954 ms
+2024-12-29 04:04:03.931 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.8003 ms
+2024-12-29 04:04:06.339 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 9.6842 ms
+2024-12-29 04:04:06.370 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.9992 ms
+2024-12-29 04:04:06.391 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.9400 ms
+2024-12-29 04:04:08.209 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 9.5997 ms
+2024-12-29 04:04:08.235 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.0658 ms
+2024-12-29 04:04:08.255 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.7237 ms
+2024-12-29 04:04:12.631 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1062 ms
+2024-12-29 04:04:12.643 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.3871 ms
+2024-12-29 04:04:12.656 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0340 ms
+2024-12-29 04:04:12.656 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0584 ms
+2024-12-29 04:04:12.656 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1758 ms
+2024-12-29 04:04:12.677 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.4786 ms
+2024-12-29 04:04:12.695 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.0028 ms
+2024-12-29 04:04:12.714 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.8380 ms
+2024-12-29 04:04:17.369 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.2607 ms
+2024-12-29 04:04:17.404 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.8565 ms
+2024-12-29 04:04:17.423 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.5640 ms
+2024-12-29 04:04:17.441 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.4182 ms
+2024-12-29 04:04:27.071 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0408 ms
+2024-12-29 04:04:27.081 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.9565 ms
+2024-12-29 04:04:27.091 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0753 ms
+2024-12-29 04:04:27.091 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0775 ms
+2024-12-29 04:04:27.092 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0695 ms
+2024-12-29 04:04:27.112 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.6093 ms
+2024-12-29 04:04:27.131 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.4045 ms
+2024-12-29 04:04:27.153 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 21.8145 ms
+2024-12-29 04:04:28.894 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.5983 ms
+2024-12-29 04:04:28.929 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.9239 ms
+2024-12-29 04:04:28.949 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.9830 ms
+2024-12-29 04:04:28.968 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.8441 ms
+2024-12-29 04:04:31.366 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.1769 ms
+2024-12-29 04:04:31.398 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.9931 ms
+2024-12-29 04:04:31.422 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 23.4406 ms
+2024-12-29 04:04:31.440 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.1882 ms
+2024-12-29 04:04:34.007 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1194 ms
+2024-12-29 04:04:34.016 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.7623 ms
+2024-12-29 04:04:34.030 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0242 ms
+2024-12-29 04:04:34.030 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0694 ms
+2024-12-29 04:04:34.030 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0143 ms
+2024-12-29 04:04:34.052 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.8761 ms
+2024-12-29 04:04:34.071 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.6466 ms
+2024-12-29 04:04:34.090 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.6596 ms
+2024-12-29 04:04:34.885 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.0860 ms
+2024-12-29 04:04:34.917 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.8863 ms
+2024-12-29 04:04:34.936 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.5187 ms
+2024-12-29 04:04:34.954 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.6918 ms
+2024-12-29 04:04:36.950 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.6513 ms
+2024-12-29 04:04:36.981 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.4545 ms
+2024-12-29 04:04:37.000 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.7347 ms
+2024-12-29 04:04:37.018 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.9336 ms
+2024-12-29 04:04:39.529 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0601 ms
+2024-12-29 04:04:39.540 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.3101 ms
+2024-12-29 04:04:39.554 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0242 ms
+2024-12-29 04:04:39.554 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0639 ms
+2024-12-29 04:04:39.554 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0664 ms
+2024-12-29 04:04:39.575 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.5948 ms
+2024-12-29 04:04:39.593 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.2549 ms
+2024-12-29 04:04:39.611 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.3697 ms
+2024-12-29 04:04:42.372 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.3480 ms
+2024-12-29 04:04:42.402 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.6011 ms
+2024-12-29 04:04:42.422 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.1163 ms
+2024-12-29 04:04:42.440 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.1343 ms
+2024-12-29 04:04:45.318 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0801 ms
+2024-12-29 04:04:45.327 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.4697 ms
+2024-12-29 04:04:45.336 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0228 ms
+2024-12-29 04:04:45.336 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0211 ms
+2024-12-29 04:04:45.336 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0831 ms
+2024-12-29 04:04:45.356 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.2818 ms
+2024-12-29 04:04:45.382 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 25.1063 ms
+2024-12-29 04:04:45.397 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4771 ms
+2024-12-29 04:04:53.791 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0370 ms
+2024-12-29 04:04:53.800 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.5881 ms
+2024-12-29 04:04:53.809 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1280 ms
+2024-12-29 04:04:53.809 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0642 ms
+2024-12-29 04:04:53.809 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0102 ms
+2024-12-29 04:04:53.826 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9298 ms
+2024-12-29 04:04:53.841 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4424 ms
+2024-12-29 04:04:53.856 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4552 ms
+2024-12-29 04:04:56.077 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.0567 ms
+2024-12-29 04:04:56.106 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1658 ms
+2024-12-29 04:04:56.121 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6925 ms
+2024-12-29 04:04:56.137 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0461 ms
+2024-12-29 04:04:59.665 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.2094 ms
+2024-12-29 04:04:59.675 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.9519 ms
+2024-12-29 04:04:59.689 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0835 ms
+2024-12-29 04:04:59.689 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1172 ms
+2024-12-29 04:04:59.689 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0082 ms
+2024-12-29 04:04:59.708 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.0946 ms
+2024-12-29 04:04:59.723 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9026 ms
+2024-12-29 04:04:59.739 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1091 ms
+2024-12-29 04:05:02.404 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.2891 ms
+2024-12-29 04:05:02.432 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9330 ms
+2024-12-29 04:05:02.448 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.6433 ms
+2024-12-29 04:05:02.465 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.9619 ms
+2024-12-29 04:05:04.471 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.9348 ms
+2024-12-29 04:05:04.500 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3636 ms
+2024-12-29 04:05:04.523 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 22.2855 ms
+2024-12-29 04:05:04.537 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2195 ms
+2024-12-29 04:05:05.042 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1241 ms
+2024-12-29 04:05:05.050 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 4.2238 ms
+2024-12-29 04:05:05.063 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0781 ms
+2024-12-29 04:05:05.064 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0119 ms
+2024-12-29 04:05:05.064 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0610 ms
+2024-12-29 04:05:05.081 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1695 ms
+2024-12-29 04:05:05.098 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.3584 ms
+2024-12-29 04:05:05.113 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2766 ms
+2024-12-29 04:05:07.060 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.3228 ms
+2024-12-29 04:05:07.089 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5717 ms
+2024-12-29 04:05:07.106 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.8184 ms
+2024-12-29 04:05:07.123 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.8983 ms
+2024-12-29 04:05:11.961 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.2617 ms
+2024-12-29 04:05:11.973 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.9331 ms
+2024-12-29 04:05:11.987 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0738 ms
+2024-12-29 04:05:11.987 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0125 ms
+2024-12-29 04:05:11.987 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0073 ms
+2024-12-29 04:05:12.005 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3512 ms
+2024-12-29 04:05:12.021 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2072 ms
+2024-12-29 04:05:12.038 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.3059 ms
+2024-12-29 04:05:25.063 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0243 ms
+2024-12-29 04:05:25.072 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.7974 ms
+2024-12-29 04:05:25.082 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0633 ms
+2024-12-29 04:05:25.082 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1385 ms
+2024-12-29 04:05:25.082 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0560 ms
+2024-12-29 04:05:25.100 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1511 ms
+2024-12-29 04:05:25.116 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9295 ms
+2024-12-29 04:05:25.132 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.1325 ms
+2024-12-29 04:05:27.897 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.6091 ms
+2024-12-29 04:05:27.927 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.8324 ms
+2024-12-29 04:05:27.942 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3096 ms
+2024-12-29 04:05:27.957 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3508 ms
+2024-12-29 04:05:30.478 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1219 ms
+2024-12-29 04:05:30.486 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.4987 ms
+2024-12-29 04:05:30.495 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0743 ms
+2024-12-29 04:05:30.495 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0641 ms
+2024-12-29 04:05:30.495 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0600 ms
+2024-12-29 04:05:30.514 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3927 ms
+2024-12-29 04:05:30.529 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6776 ms
+2024-12-29 04:05:30.544 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2469 ms
+2024-12-29 04:05:33.096 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.2740 ms
+2024-12-29 04:05:33.121 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.4162 ms
+2024-12-29 04:05:33.137 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8259 ms
+2024-12-29 04:05:33.152 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0245 ms
+2024-12-29 04:05:35.785 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0323 ms
+2024-12-29 04:05:35.795 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.8141 ms
+2024-12-29 04:05:35.809 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0784 ms
+2024-12-29 04:05:35.809 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1185 ms
+2024-12-29 04:05:35.809 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0560 ms
+2024-12-29 04:05:35.827 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0088 ms
+2024-12-29 04:05:35.843 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3191 ms
+2024-12-29 04:05:35.859 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.9665 ms
+2024-12-29 04:05:38.528 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.1809 ms
+2024-12-29 04:05:38.557 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8017 ms
+2024-12-29 04:05:38.572 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7242 ms
+2024-12-29 04:05:38.590 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.6487 ms
+2024-12-29 04:05:40.587 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.0624 ms
+2024-12-29 04:05:40.611 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3408 ms
+2024-12-29 04:05:40.627 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8571 ms
+2024-12-29 04:05:40.642 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8287 ms
+2024-12-29 04:05:43.879 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1423 ms
+2024-12-29 04:05:43.887 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.3197 ms
+2024-12-29 04:05:43.894 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0878 ms
+2024-12-29 04:05:43.895 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0606 ms
+2024-12-29 04:05:43.895 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0539 ms
+2024-12-29 04:05:43.913 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3108 ms
+2024-12-29 04:05:43.929 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1795 ms
+2024-12-29 04:05:43.944 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7204 ms
+2024-12-29 04:05:46.365 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.7316 ms
+2024-12-29 04:05:46.390 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2565 ms
+2024-12-29 04:05:46.407 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5424 ms
+2024-12-29 04:05:46.430 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 23.1498 ms
+2024-12-29 04:05:46.447 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5783 ms
+2024-12-29 04:05:52.728 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1490 ms
+2024-12-29 04:05:52.738 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.4721 ms
+2024-12-29 04:05:52.752 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0208 ms
+2024-12-29 04:05:52.753 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0100 ms
+2024-12-29 04:05:52.753 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0108 ms
+2024-12-29 04:05:52.754 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0711 ms
+2024-12-29 04:05:52.754 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0598 ms
+2024-12-29 04:05:52.773 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3826 ms
+2024-12-29 04:05:52.788 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4052 ms
+2024-12-29 04:05:52.804 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1145 ms
+2024-12-29 04:05:52.820 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0340 ms
+2024-12-29 04:05:52.836 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1338 ms
+2024-12-29 04:05:55.255 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.0962 ms
+2024-12-29 04:05:55.286 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.1271 ms
+2024-12-29 04:05:55.303 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.1142 ms
+2024-12-29 04:05:55.318 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5535 ms
+2024-12-29 04:05:55.340 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 21.4036 ms
+2024-12-29 04:05:55.355 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4196 ms
+2024-12-29 04:05:57.920 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0982 ms
+2024-12-29 04:05:57.928 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.4413 ms
+2024-12-29 04:05:57.941 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0870 ms
+2024-12-29 04:05:57.942 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0102 ms
+2024-12-29 04:05:57.943 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0657 ms
+2024-12-29 04:05:57.943 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0586 ms
+2024-12-29 04:05:57.943 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0523 ms
+2024-12-29 04:05:57.960 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0821 ms
+2024-12-29 04:05:57.976 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5189 ms
+2024-12-29 04:05:57.991 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5970 ms
+2024-12-29 04:05:58.006 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3270 ms
+2024-12-29 04:05:58.022 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7800 ms
+2024-12-29 04:06:00.652 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.5956 ms
+2024-12-29 04:06:00.675 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7013 ms
+2024-12-29 04:06:00.691 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9061 ms
+2024-12-29 04:06:00.706 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8067 ms
+2024-12-29 04:06:00.730 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 23.1294 ms
+2024-12-29 04:06:00.745 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6917 ms
+2024-12-29 04:06:04.097 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1118 ms
+2024-12-29 04:06:04.107 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.7877 ms
+2024-12-29 04:06:04.122 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0914 ms
+2024-12-29 04:06:04.124 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0079 ms
+2024-12-29 04:06:04.123 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1312 ms
+2024-12-29 04:06:04.124 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1328 ms
+2024-12-29 04:06:04.124 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1146 ms
+2024-12-29 04:06:04.124 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0045 ms
+2024-12-29 04:06:04.144 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.8898 ms
+2024-12-29 04:06:04.159 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5610 ms
+2024-12-29 04:06:04.174 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4537 ms
+2024-12-29 04:06:04.189 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2601 ms
+2024-12-29 04:06:04.204 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4391 ms
+2024-12-29 04:06:04.219 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4460 ms
+2024-12-29 04:06:07.999 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.6366 ms
+2024-12-29 04:06:08.029 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.6805 ms
+2024-12-29 04:06:08.045 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1306 ms
+2024-12-29 04:06:08.061 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0308 ms
+2024-12-29 04:06:08.076 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9646 ms
+2024-12-29 04:06:08.091 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2015 ms
+2024-12-29 04:06:08.106 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4267 ms
+2024-12-29 04:06:09.167 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0196 ms
+2024-12-29 04:06:09.174 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 4.0536 ms
+2024-12-29 04:06:09.183 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1242 ms
+2024-12-29 04:06:09.183 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1162 ms
+2024-12-29 04:06:09.183 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0644 ms
+2024-12-29 04:06:09.183 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1149 ms
+2024-12-29 04:06:09.183 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0589 ms
+2024-12-29 04:06:09.183 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0566 ms
+2024-12-29 04:06:09.205 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.2681 ms
+2024-12-29 04:06:09.220 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1522 ms
+2024-12-29 04:06:09.235 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1972 ms
+2024-12-29 04:06:09.250 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7714 ms
+2024-12-29 04:06:09.265 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4432 ms
+2024-12-29 04:06:09.280 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3286 ms
+2024-12-29 04:06:12.200 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.7812 ms
+2024-12-29 04:06:12.230 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5222 ms
+2024-12-29 04:06:12.246 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2803 ms
+2024-12-29 04:06:12.266 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.9417 ms
+2024-12-29 04:06:12.281 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6693 ms
+2024-12-29 04:06:12.296 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3641 ms
+2024-12-29 04:06:12.311 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2726 ms
+2024-12-29 04:06:13.363 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 3.9999 ms
+2024-12-29 04:06:13.387 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7959 ms
+2024-12-29 04:06:13.402 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3005 ms
+2024-12-29 04:06:13.417 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4459 ms
+2024-12-29 04:06:13.432 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5775 ms
+2024-12-29 04:06:13.454 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 21.0602 ms
+2024-12-29 04:06:13.469 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7731 ms
+2024-12-29 04:06:19.226 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1402 ms
+2024-12-29 04:06:19.238 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.5586 ms
+2024-12-29 04:06:19.251 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0203 ms
+2024-12-29 04:06:19.252 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0095 ms
+2024-12-29 04:06:19.253 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0611 ms
+2024-12-29 04:06:19.254 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0582 ms
+2024-12-29 04:06:19.253 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1904 ms
+2024-12-29 04:06:19.253 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0109 ms
+2024-12-29 04:06:19.272 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.1933 ms
+2024-12-29 04:06:19.288 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1611 ms
+2024-12-29 04:06:19.303 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3802 ms
+2024-12-29 04:06:19.318 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5898 ms
+2024-12-29 04:06:19.334 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.8045 ms
+2024-12-29 04:06:19.349 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3637 ms
+2024-12-29 04:06:21.206 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.5640 ms
+2024-12-29 04:06:21.231 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2123 ms
+2024-12-29 04:06:21.246 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7954 ms
+2024-12-29 04:06:21.263 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.9386 ms
+2024-12-29 04:06:21.279 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.4821 ms
+2024-12-29 04:06:21.294 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4783 ms
+2024-12-29 04:06:21.309 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5388 ms
+2024-12-29 04:06:24.177 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.6305 ms
+2024-12-29 04:06:24.206 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1255 ms
+2024-12-29 04:06:24.221 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6623 ms
+2024-12-29 04:06:24.237 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6625 ms
+2024-12-29 04:06:24.252 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7824 ms
+2024-12-29 04:06:24.267 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3449 ms
+2024-12-29 04:06:24.283 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2253 ms
+2024-12-29 04:06:24.298 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7439 ms
+2024-12-29 04:06:27.151 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0802 ms
+2024-12-29 04:06:27.159 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.6534 ms
+2024-12-29 04:06:27.168 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0216 ms
+2024-12-29 04:06:27.169 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0216 ms
+2024-12-29 04:06:27.169 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1255 ms
+2024-12-29 04:06:27.169 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0626 ms
+2024-12-29 04:06:27.168 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0565 ms
+2024-12-29 04:06:27.169 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0065 ms
+2024-12-29 04:06:27.169 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0599 ms
+2024-12-29 04:06:27.189 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.5835 ms
+2024-12-29 04:06:27.205 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6995 ms
+2024-12-29 04:06:27.219 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1885 ms
+2024-12-29 04:06:27.234 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.0388 ms
+2024-12-29 04:06:27.249 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.0845 ms
+2024-12-29 04:06:27.268 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.1554 ms
+2024-12-29 04:06:27.283 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.0963 ms
+2024-12-29 04:06:30.061 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.8178 ms
+2024-12-29 04:06:30.091 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.8540 ms
+2024-12-29 04:06:30.107 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8109 ms
+2024-12-29 04:06:30.123 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.4732 ms
+2024-12-29 04:06:30.138 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4663 ms
+2024-12-29 04:06:30.153 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3315 ms
+2024-12-29 04:06:30.168 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4476 ms
+2024-12-29 04:06:30.182 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2303 ms
+2024-12-29 04:06:37.511 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1286 ms
+2024-12-29 04:06:37.519 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.3996 ms
+2024-12-29 04:06:37.528 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0685 ms
+2024-12-29 04:06:37.528 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0178 ms
+2024-12-29 04:06:37.528 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.2306 ms
+2024-12-29 04:06:37.528 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0087 ms
+2024-12-29 04:06:37.529 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.4290 ms
+2024-12-29 04:06:37.529 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0060 ms
+2024-12-29 04:06:37.528 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0070 ms
+2024-12-29 04:06:37.548 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8954 ms
+2024-12-29 04:06:37.564 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8599 ms
+2024-12-29 04:06:37.579 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4278 ms
+2024-12-29 04:06:37.593 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3622 ms
+2024-12-29 04:06:37.613 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.3815 ms
+2024-12-29 04:06:37.628 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2093 ms
+2024-12-29 04:06:37.643 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1945 ms
+2024-12-29 04:06:41.276 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.2781 ms
+2024-12-29 04:06:41.300 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9471 ms
+2024-12-29 04:06:41.316 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0307 ms
+2024-12-29 04:06:41.331 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8976 ms
+2024-12-29 04:06:41.347 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1512 ms
+2024-12-29 04:06:41.362 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7125 ms
+2024-12-29 04:06:41.377 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3934 ms
+2024-12-29 04:06:41.392 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5800 ms
+2024-12-29 04:06:42.156 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 4.4580 ms
+2024-12-29 04:06:42.181 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.6709 ms
+2024-12-29 04:06:42.197 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2800 ms
+2024-12-29 04:06:42.211 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2703 ms
+2024-12-29 04:06:42.226 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1954 ms
+2024-12-29 04:06:42.241 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3290 ms
+2024-12-29 04:06:42.256 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6332 ms
+2024-12-29 04:06:42.275 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.8741 ms
+2024-12-29 04:06:42.403 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 4.8938 ms
+2024-12-29 04:06:42.434 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.5287 ms
+2024-12-29 04:06:42.450 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7653 ms
+2024-12-29 04:06:42.465 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6312 ms
+2024-12-29 04:06:42.480 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4906 ms
+2024-12-29 04:06:42.495 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4898 ms
+2024-12-29 04:06:42.511 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5586 ms
+2024-12-29 04:06:42.525 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1257 ms
+2024-12-29 04:06:42.710 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1360 ms
+2024-12-29 04:06:42.717 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 3.7714 ms
+2024-12-29 04:06:42.726 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0843 ms
+2024-12-29 04:06:42.727 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0096 ms
+2024-12-29 04:06:42.726 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0074 ms
+2024-12-29 04:06:42.726 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0660 ms
+2024-12-29 04:06:42.726 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0622 ms
+2024-12-29 04:06:42.727 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0557 ms
+2024-12-29 04:06:42.727 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0096 ms
+2024-12-29 04:06:42.744 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6357 ms
+2024-12-29 04:06:42.759 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4432 ms
+2024-12-29 04:06:42.773 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3861 ms
+2024-12-29 04:06:42.795 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 21.4734 ms
+2024-12-29 04:06:42.811 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4574 ms
+2024-12-29 04:06:42.826 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5246 ms
+2024-12-29 04:06:42.841 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2521 ms
+2024-12-29 04:08:21.079 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0917 ms
+2024-12-29 04:08:21.090 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.0146 ms
+2024-12-29 04:08:21.099 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0601 ms
+2024-12-29 04:08:21.102 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0080 ms
+2024-12-29 04:08:21.099 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0112 ms
+2024-12-29 04:08:21.105 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0087 ms
+2024-12-29 04:08:21.099 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0190 ms
+2024-12-29 04:08:21.103 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0059 ms
+2024-12-29 04:08:21.107 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0077 ms
+2024-12-29 04:08:21.128 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.6899 ms
+2024-12-29 04:08:21.143 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5570 ms
+2024-12-29 04:08:21.158 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6100 ms
+2024-12-29 04:08:21.174 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5204 ms
+2024-12-29 04:08:21.190 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9498 ms
+2024-12-29 04:08:21.205 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3077 ms
+2024-12-29 04:08:21.220 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1398 ms
+2024-12-29 04:08:23.117 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.1559 ms
+2024-12-29 04:08:23.140 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8328 ms
+2024-12-29 04:08:23.158 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.6153 ms
+2024-12-29 04:08:23.179 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 20.0014 ms
+2024-12-29 04:08:23.194 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2050 ms
+2024-12-29 04:08:23.209 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3834 ms
+2024-12-29 04:08:23.224 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4024 ms
+2024-12-29 04:08:23.238 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2534 ms
+2024-12-29 04:08:27.359 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0852 ms
+2024-12-29 04:08:27.367 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 4.6261 ms
+2024-12-29 04:08:27.376 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1386 ms
+2024-12-29 04:08:27.377 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0629 ms
+2024-12-29 04:08:27.377 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0067 ms
+2024-12-29 04:08:27.376 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0570 ms
+2024-12-29 04:08:27.377 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0102 ms
+2024-12-29 04:08:27.377 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0085 ms
+2024-12-29 04:08:27.377 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0073 ms
+2024-12-29 04:08:27.395 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1732 ms
+2024-12-29 04:08:27.410 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4384 ms
+2024-12-29 04:08:27.426 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2395 ms
+2024-12-29 04:08:27.441 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5797 ms
+2024-12-29 04:08:27.456 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4150 ms
+2024-12-29 04:08:27.471 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2923 ms
+2024-12-29 04:08:27.486 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3867 ms
+2024-12-29 04:08:29.615 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.5899 ms
+2024-12-29 04:08:29.638 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5022 ms
+2024-12-29 04:08:29.652 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.2487 ms
+2024-12-29 04:08:29.666 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.4848 ms
+2024-12-29 04:08:29.680 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.6621 ms
+2024-12-29 04:08:29.694 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.6425 ms
+2024-12-29 04:08:29.708 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.2671 ms
+2024-12-29 04:08:29.722 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.4934 ms
+2024-12-29 04:08:31.301 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.5038 ms
+2024-12-29 04:08:31.325 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.0803 ms
+2024-12-29 04:08:31.339 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.2330 ms
+2024-12-29 04:08:31.353 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.4548 ms
+2024-12-29 04:08:31.367 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2932 ms
+2024-12-29 04:08:31.381 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.3010 ms
+2024-12-29 04:08:31.395 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.3077 ms
+2024-12-29 04:08:31.409 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.3690 ms
+2024-12-29 04:08:31.739 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 4.0043 ms
+2024-12-29 04:08:31.761 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.3735 ms
+2024-12-29 04:08:31.777 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3339 ms
+2024-12-29 04:08:31.790 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.1164 ms
+2024-12-29 04:08:31.804 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.0684 ms
+2024-12-29 04:08:31.817 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.1006 ms
+2024-12-29 04:08:31.832 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.8333 ms
+2024-12-29 04:08:31.846 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.2938 ms
+2024-12-29 04:08:34.047 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0809 ms
+2024-12-29 04:08:34.057 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.1368 ms
+2024-12-29 04:08:34.066 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0747 ms
+2024-12-29 04:08:34.066 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0121 ms
+2024-12-29 04:08:34.066 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0084 ms
+2024-12-29 04:08:34.067 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0567 ms
+2024-12-29 04:08:34.066 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0497 ms
+2024-12-29 04:08:34.066 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0128 ms
+2024-12-29 04:08:34.067 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0518 ms
+2024-12-29 04:08:34.085 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.5249 ms
+2024-12-29 04:08:34.100 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.5663 ms
+2024-12-29 04:08:34.113 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.1516 ms
+2024-12-29 04:08:34.127 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.2964 ms
+2024-12-29 04:08:34.141 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.8236 ms
+2024-12-29 04:08:34.154 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.8242 ms
+2024-12-29 04:08:34.167 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.7704 ms
+2024-12-29 04:08:38.196 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.0200 ms
+2024-12-29 04:08:38.217 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.7890 ms
+2024-12-29 04:08:38.231 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.0233 ms
+2024-12-29 04:08:38.245 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.1516 ms
+2024-12-29 04:08:38.258 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.7684 ms
+2024-12-29 04:08:38.271 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.7724 ms
+2024-12-29 04:08:38.284 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.2826 ms
+2024-12-29 04:08:38.297 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.3935 ms
+2024-12-29 04:08:39.687 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1295 ms
+2024-12-29 04:08:39.693 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 3.7644 ms
+2024-12-29 04:08:39.702 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0187 ms
+2024-12-29 04:08:39.703 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0544 ms
+2024-12-29 04:08:39.703 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1248 ms
+2024-12-29 04:08:39.703 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0079 ms
+2024-12-29 04:08:39.703 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0586 ms
+2024-12-29 04:08:39.703 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0086 ms
+2024-12-29 04:08:39.703 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0509 ms
+2024-12-29 04:08:39.724 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 19.4342 ms
+2024-12-29 04:08:39.738 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.0026 ms
+2024-12-29 04:08:39.752 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.4194 ms
+2024-12-29 04:08:39.765 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 12.9981 ms
+2024-12-29 04:08:39.780 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.7396 ms
+2024-12-29 04:08:39.793 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.2306 ms
+2024-12-29 04:08:39.807 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.4220 ms
+2024-12-29 04:08:42.077 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.3689 ms
+2024-12-29 04:08:42.100 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4332 ms
+2024-12-29 04:08:42.115 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3256 ms
+2024-12-29 04:08:42.130 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3198 ms
+2024-12-29 04:08:42.145 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2874 ms
+2024-12-29 04:08:42.159 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1360 ms
+2024-12-29 04:08:42.174 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.8967 ms
+2024-12-29 04:08:42.188 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.9133 ms
+2024-12-29 04:08:44.424 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.0209 ms
+2024-12-29 04:08:44.452 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1999 ms
+2024-12-29 04:08:44.469 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2893 ms
+2024-12-29 04:08:44.492 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 22.1175 ms
+2024-12-29 04:08:44.506 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.0274 ms
+2024-12-29 04:08:44.521 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.9286 ms
+2024-12-29 04:08:44.535 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 13.9180 ms
+2024-12-29 04:08:44.550 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.0956 ms
+2024-12-29 04:08:52.315 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0269 ms
+2024-12-29 04:08:52.325 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.6689 ms
+2024-12-29 04:08:52.339 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0183 ms
+2024-12-29 04:08:52.340 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0919 ms
+2024-12-29 04:08:52.341 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0668 ms
+2024-12-29 04:08:52.340 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0081 ms
+2024-12-29 04:08:52.341 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0544 ms
+2024-12-29 04:08:52.341 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0066 ms
+2024-12-29 04:08:52.341 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0564 ms
+2024-12-29 04:08:52.363 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 20.6262 ms
+2024-12-29 04:08:52.379 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.0356 ms
+2024-12-29 04:08:52.395 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8823 ms
+2024-12-29 04:08:52.410 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4745 ms
+2024-12-29 04:08:52.426 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2219 ms
+2024-12-29 04:08:52.441 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6836 ms
+2024-12-29 04:08:52.456 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4779 ms
+2024-12-29 04:08:56.385 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.2419 ms
+2024-12-29 04:08:56.413 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3217 ms
+2024-12-29 04:08:56.429 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9021 ms
+2024-12-29 04:08:56.445 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2058 ms
+2024-12-29 04:08:56.460 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2625 ms
+2024-12-29 04:08:56.477 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.1298 ms
+2024-12-29 04:08:56.492 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8105 ms
+2024-12-29 04:08:56.507 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2833 ms
+2024-12-29 04:08:58.690 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.0287 ms
+2024-12-29 04:08:58.701 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.3092 ms
+2024-12-29 04:08:58.715 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1109 ms
+2024-12-29 04:08:58.717 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0630 ms
+2024-12-29 04:08:58.717 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0116 ms
+2024-12-29 04:08:58.716 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0740 ms
+2024-12-29 04:08:58.717 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0099 ms
+2024-12-29 04:08:58.717 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0066 ms
+2024-12-29 04:08:58.718 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0524 ms
+2024-12-29 04:08:58.735 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.6253 ms
+2024-12-29 04:08:58.751 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.8279 ms
+2024-12-29 04:08:58.766 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5494 ms
+2024-12-29 04:08:58.790 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 22.8795 ms
+2024-12-29 04:08:58.805 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8516 ms
+2024-12-29 04:08:58.820 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5184 ms
+2024-12-29 04:08:58.835 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4405 ms
+2024-12-29 04:09:01.281 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.0602 ms
+2024-12-29 04:09:01.305 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5662 ms
+2024-12-29 04:09:01.320 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5349 ms
+2024-12-29 04:09:01.336 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.4753 ms
+2024-12-29 04:09:01.352 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6458 ms
+2024-12-29 04:09:01.367 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5444 ms
+2024-12-29 04:09:01.382 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4417 ms
+2024-12-29 04:09:01.397 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1771 ms
+2024-12-29 04:09:03.456 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.7964 ms
+2024-12-29 04:09:03.485 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1897 ms
+2024-12-29 04:09:03.500 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3206 ms
+2024-12-29 04:09:03.515 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4109 ms
+2024-12-29 04:09:03.530 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5191 ms
+2024-12-29 04:09:03.545 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4821 ms
+2024-12-29 04:09:03.560 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3986 ms
+2024-12-29 04:09:03.575 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.0483 ms
+2024-12-29 04:09:06.264 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1340 ms
+2024-12-29 04:09:06.272 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.2679 ms
+2024-12-29 04:09:06.280 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0702 ms
+2024-12-29 04:09:06.282 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0550 ms
+2024-12-29 04:09:06.281 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0751 ms
+2024-12-29 04:09:06.281 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0638 ms
+2024-12-29 04:09:06.282 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0988 ms
+2024-12-29 04:09:06.282 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0535 ms
+2024-12-29 04:09:06.281 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0525 ms
+2024-12-29 04:09:06.301 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.4756 ms
+2024-12-29 04:09:06.316 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6478 ms
+2024-12-29 04:09:06.331 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5583 ms
+2024-12-29 04:09:06.346 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3958 ms
+2024-12-29 04:09:06.361 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4749 ms
+2024-12-29 04:09:06.376 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3005 ms
+2024-12-29 04:09:06.391 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2603 ms
+2024-12-29 04:09:08.205 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 5.6954 ms
+2024-12-29 04:09:08.230 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.8882 ms
+2024-12-29 04:09:08.245 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6244 ms
+2024-12-29 04:09:08.261 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7607 ms
+2024-12-29 04:09:08.278 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.2848 ms
+2024-12-29 04:09:08.293 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1975 ms
+2024-12-29 04:09:08.308 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4067 ms
+2024-12-29 04:09:08.323 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3070 ms
+2024-12-29 04:09:09.904 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.2199 ms
+2024-12-29 04:09:09.934 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.7770 ms
+2024-12-29 04:09:09.950 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3277 ms
+2024-12-29 04:09:09.975 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 24.8793 ms
+2024-12-29 04:09:09.991 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0084 ms
+2024-12-29 04:09:10.007 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1257 ms
+2024-12-29 04:09:10.022 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6193 ms
+2024-12-29 04:09:10.037 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4280 ms
+2024-12-29 04:09:11.363 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1321 ms
+2024-12-29 04:09:11.371 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 4.8120 ms
+2024-12-29 04:09:11.385 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1128 ms
+2024-12-29 04:09:11.386 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0096 ms
+2024-12-29 04:09:11.387 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1188 ms
+2024-12-29 04:09:11.388 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0567 ms
+2024-12-29 04:09:11.387 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0096 ms
+2024-12-29 04:09:11.388 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0076 ms
+2024-12-29 04:09:11.388 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0553 ms
+2024-12-29 04:09:11.404 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0406 ms
+2024-12-29 04:09:11.418 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4142 ms
+2024-12-29 04:09:11.433 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3819 ms
+2024-12-29 04:09:11.449 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6693 ms
+2024-12-29 04:09:11.463 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2335 ms
+2024-12-29 04:09:11.479 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0949 ms
+2024-12-29 04:09:11.494 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6883 ms
+2024-12-29 04:10:18.596 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.2597 ms
+2024-12-29 04:10:18.611 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.7427 ms
+2024-12-29 04:10:18.619 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1166 ms
+2024-12-29 04:10:18.622 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0114 ms
+2024-12-29 04:10:18.628 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0069 ms
+2024-12-29 04:10:18.620 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0118 ms
+2024-12-29 04:10:18.620 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0434 ms
+2024-12-29 04:10:18.623 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0094 ms
+2024-12-29 04:10:18.626 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0125 ms
+2024-12-29 04:10:18.650 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.9221 ms
+2024-12-29 04:10:18.666 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6458 ms
+2024-12-29 04:10:18.681 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5215 ms
+2024-12-29 04:10:18.696 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7905 ms
+2024-12-29 04:10:18.712 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9142 ms
+2024-12-29 04:10:18.727 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5756 ms
+2024-12-29 04:10:18.743 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7195 ms
+2024-12-29 04:10:20.063 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.8246 ms
+2024-12-29 04:10:20.089 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2925 ms
+2024-12-29 04:10:20.104 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8245 ms
+2024-12-29 04:10:20.120 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3560 ms
+2024-12-29 04:10:20.136 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6779 ms
+2024-12-29 04:10:20.151 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7126 ms
+2024-12-29 04:10:20.167 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9324 ms
+2024-12-29 04:10:20.182 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3297 ms
+2024-12-29 04:10:22.018 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.9728 ms
+2024-12-29 04:10:22.048 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.1020 ms
+2024-12-29 04:10:22.063 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6302 ms
+2024-12-29 04:10:22.080 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.0617 ms
+2024-12-29 04:10:22.095 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5284 ms
+2024-12-29 04:10:22.117 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 21.7345 ms
+2024-12-29 04:10:22.133 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5591 ms
+2024-12-29 04:10:22.147 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3109 ms
+2024-12-29 04:10:22.651 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.4858 ms
+2024-12-29 04:10:22.680 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.6963 ms
+2024-12-29 04:10:22.697 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.7854 ms
+2024-12-29 04:10:22.713 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3433 ms
+2024-12-29 04:10:22.728 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8998 ms
+2024-12-29 04:10:22.743 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.3319 ms
+2024-12-29 04:10:22.760 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.4296 ms
+2024-12-29 04:10:22.778 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.0584 ms
+2024-12-29 04:10:23.650 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1236 ms
+2024-12-29 04:10:23.660 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.7837 ms
+2024-12-29 04:10:23.669 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1493 ms
+2024-12-29 04:10:23.670 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1099 ms
+2024-12-29 04:10:23.670 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0547 ms
+2024-12-29 04:10:23.669 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0128 ms
+2024-12-29 04:10:23.669 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0085 ms
+2024-12-29 04:10:23.669 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0073 ms
+2024-12-29 04:10:23.669 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0096 ms
+2024-12-29 04:10:23.694 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.8435 ms
+2024-12-29 04:10:23.709 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6134 ms
+2024-12-29 04:10:23.724 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2690 ms
+2024-12-29 04:10:23.739 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.1678 ms
+2024-12-29 04:10:23.754 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.2352 ms
+2024-12-29 04:10:23.769 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4752 ms
+2024-12-29 04:10:23.784 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7368 ms
+2024-12-29 04:10:25.763 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 9.1071 ms
+2024-12-29 04:10:25.793 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0764 ms
+2024-12-29 04:10:25.809 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9271 ms
+2024-12-29 04:10:25.824 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4300 ms
+2024-12-29 04:10:25.840 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.8074 ms
+2024-12-29 04:10:25.859 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.4930 ms
+2024-12-29 04:10:25.874 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4976 ms
+2024-12-29 04:10:25.889 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4764 ms
+2024-12-29 04:10:26.219 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.6960 ms
+2024-12-29 04:10:26.250 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5265 ms
+2024-12-29 04:10:26.265 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7639 ms
+2024-12-29 04:10:26.281 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5430 ms
+2024-12-29 04:10:26.298 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.1625 ms
+2024-12-29 04:10:26.314 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0848 ms
+2024-12-29 04:10:26.329 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9638 ms
+2024-12-29 04:10:26.351 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 21.4240 ms
+2024-12-29 04:10:27.291 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 8.1953 ms
+2024-12-29 04:10:27.320 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3089 ms
+2024-12-29 04:10:27.336 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.6864 ms
+2024-12-29 04:10:27.354 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.5667 ms
+2024-12-29 04:10:27.372 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 17.0989 ms
+2024-12-29 04:10:27.389 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.4188 ms
+2024-12-29 04:10:27.404 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1271 ms
+2024-12-29 04:10:27.420 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1849 ms
+2024-12-29 04:10:27.912 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.1680 ms
+2024-12-29 04:10:27.936 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0475 ms
+2024-12-29 04:10:27.952 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.4973 ms
+2024-12-29 04:10:27.969 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 16.2394 ms
+2024-12-29 04:10:27.984 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7747 ms
+2024-12-29 04:10:28.000 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0139 ms
+2024-12-29 04:10:28.019 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 18.6394 ms
+2024-12-29 04:10:28.035 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8335 ms
+2024-12-29 04:10:28.514 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.9525 ms
+2024-12-29 04:10:28.543 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.0947 ms
+2024-12-29 04:10:28.559 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1634 ms
+2024-12-29 04:10:28.582 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 22.6421 ms
+2024-12-29 04:10:28.598 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2594 ms
+2024-12-29 04:10:28.613 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5285 ms
+2024-12-29 04:10:28.628 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5909 ms
+2024-12-29 04:10:28.643 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5036 ms
+2024-12-29 04:10:29.136 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/SetAcategory/1 responded 204 in 0.1327 ms
+2024-12-29 04:10:29.146 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.6345 ms
+2024-12-29 04:10:29.157 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0239 ms
+2024-12-29 04:10:29.157 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0077 ms
+2024-12-29 04:10:29.158 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0097 ms
+2024-12-29 04:10:29.158 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0650 ms
+2024-12-29 04:10:29.158 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0071 ms
+2024-12-29 04:10:29.158 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0590 ms
+2024-12-29 04:10:29.158 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0074 ms
+2024-12-29 04:10:29.175 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6806 ms
+2024-12-29 04:10:29.190 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7985 ms
+2024-12-29 04:10:29.207 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5454 ms
+2024-12-29 04:10:29.222 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8197 ms
+2024-12-29 04:10:29.237 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7373 ms
+2024-12-29 04:10:29.253 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.9274 ms
+2024-12-29 04:10:29.277 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 23.5721 ms
+2024-12-29 04:10:29.578 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 7.5007 ms
+2024-12-29 04:10:29.607 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1975 ms
+2024-12-29 04:10:29.622 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5724 ms
+2024-12-29 04:10:29.638 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3635 ms
+2024-12-29 04:10:29.654 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1852 ms
+2024-12-29 04:10:29.669 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6930 ms
+2024-12-29 04:10:29.684 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7188 ms
+2024-12-29 04:10:29.700 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.8302 ms
+2024-12-29 04:10:30.275 +02:00 [INF] HTTP PUT /api/CryptoNations/SetAcategory/1 responded 200 in 6.9067 ms
+2024-12-29 04:10:30.318 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.2422 ms
+2024-12-29 04:10:30.334 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6087 ms
+2024-12-29 04:10:30.349 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6722 ms
+2024-12-29 04:10:30.364 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.5536 ms
+2024-12-29 04:10:30.380 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6342 ms
+2024-12-29 04:10:30.395 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.6984 ms
+2024-12-29 04:10:30.410 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 14.7421 ms
+2024-12-29 04:12:42.473 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0208 ms
+2024-12-29 04:12:42.582 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 104.6202 ms
+2024-12-29 04:12:42.587 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0172 ms
+2024-12-29 04:12:42.602 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 13.3336 ms
+2024-12-29 04:12:43.396 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1170 ms
+2024-12-29 04:12:43.415 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.5466 ms
+2024-12-29 04:12:43.456 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0761 ms
+2024-12-29 04:12:43.457 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.4954 ms
+2024-12-29 04:12:43.456 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0075 ms
+2024-12-29 04:12:43.468 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 6.7828 ms
+2024-12-29 04:12:43.471 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 7.0376 ms
+2024-12-29 04:12:43.478 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 9.8259 ms
+2024-12-29 04:13:09.438 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.2234 ms
+2024-12-29 04:13:09.512 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 69.5751 ms
+2024-12-29 04:13:09.516 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0166 ms
+2024-12-29 04:13:09.528 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 9.6045 ms
+2024-12-29 04:13:21.113 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0579 ms
+2024-12-29 04:13:21.178 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 62.4853 ms
+2024-12-29 04:13:21.182 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0736 ms
+2024-12-29 04:13:21.191 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8655 ms
+2024-12-29 04:13:23.613 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.2302 ms
+2024-12-29 04:13:23.633 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.3351 ms
+2024-12-29 04:13:23.668 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0220 ms
+2024-12-29 04:13:23.668 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0062 ms
+2024-12-29 04:13:23.668 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0299 ms
+2024-12-29 04:13:23.683 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 7.5152 ms
+2024-12-29 04:13:23.695 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 18.5089 ms
+2024-12-29 04:13:23.697 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 16.6694 ms
+2024-12-29 04:13:40.484 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0777 ms
+2024-12-29 04:13:40.549 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 62.2688 ms
+2024-12-29 04:13:40.553 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0168 ms
+2024-12-29 04:13:40.562 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.1416 ms
+2024-12-29 04:13:41.580 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0226 ms
+2024-12-29 04:13:41.599 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 15.1629 ms
+2024-12-29 04:13:41.629 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0194 ms
+2024-12-29 04:13:41.630 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0157 ms
+2024-12-29 04:13:41.630 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0075 ms
+2024-12-29 04:13:41.638 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 4.7175 ms
+2024-12-29 04:13:41.639 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 4.2424 ms
+2024-12-29 04:13:41.640 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 3.0914 ms
+2024-12-29 04:13:59.385 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.1141 ms
+2024-12-29 04:13:59.451 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 63.3684 ms
+2024-12-29 04:13:59.455 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0160 ms
+2024-12-29 04:13:59.464 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.2182 ms
+2024-12-29 04:14:00.770 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0292 ms
+2024-12-29 04:14:00.820 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 45.9198 ms
+2024-12-29 04:14:00.852 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.0794 ms
+2024-12-29 04:14:00.852 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0593 ms
+2024-12-29 04:14:00.852 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0712 ms
+2024-12-29 04:14:00.871 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 13.3560 ms
+2024-12-29 04:14:00.871 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 15.0924 ms
+2024-12-29 04:14:00.873 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 12.4890 ms
+2024-12-29 04:14:05.116 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/UpdateTheCoin/1 responded 204 in 0.1059 ms
+2024-12-29 04:14:05.165 +02:00 [INF] HTTP PUT /api/CryptoNations/UpdateTheCoin/1 responded 200 in 45.1752 ms
+2024-12-29 04:14:05.191 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 15.9746 ms
+2024-12-29 04:14:05.192 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 17.5346 ms
+2024-12-29 04:14:05.193 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 17.4737 ms
+2024-12-29 04:14:05.210 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 34.9705 ms
+2024-12-29 04:19:35.627 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-29 04:19:35.643 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-29 04:19:35.644 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-29 04:19:35.645 +02:00 [INF] Hosting environment: Development
+2024-12-29 04:19:35.645 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2024-12-29 04:19:50.436 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.7794 ms
+2024-12-29 04:19:51.601 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1157.3761 ms
+2024-12-29 04:19:51.607 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.3118 ms
+2024-12-29 04:19:52.007 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 04:19:52.009 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-29 04:19:52.107 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 492.1621 ms
+2024-12-29 04:19:53.192 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1204 ms
+2024-12-29 04:19:53.252 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-12-29 04:19:53.336 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 140.5237 ms
+2024-12-29 04:19:53.369 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalSellOrders/1 responded 204 in 0.0546 ms
+2024-12-29 04:19:53.369 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetNationalPortfolio/1 responded 204 in 0.1209 ms
+2024-12-29 04:19:53.369 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/GetOtherSellOrders/1 responded 204 in 0.0263 ms
+2024-12-29 04:20:06.856 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 13480.0284 ms
+2024-12-29 04:20:06.865 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 13492.5135 ms
+2024-12-29 04:20:23.049 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 29675.4499 ms

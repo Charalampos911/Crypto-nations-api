@@ -1,0 +1,236 @@
+2024-12-20 06:52:20.907 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 06:52:20.925 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 06:52:20.926 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 06:52:20.927 +02:00 [INF] Hosting environment: Development
+2024-12-20 06:52:20.928 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 12:08:14.477 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 12:08:14.494 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 12:08:14.495 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 12:08:14.496 +02:00 [INF] Hosting environment: Development
+2024-12-20 12:08:14.496 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 12:08:37.580 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 807.8047 ms
+2024-12-20 12:09:03.498 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/3 responded 200 in 245.5038 ms
+2024-12-20 12:20:27.112 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 12:20:27.128 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 12:20:27.129 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 12:20:27.130 +02:00 [INF] Hosting environment: Development
+2024-12-20 12:20:27.131 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 12:20:53.357 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1151.7058 ms
+2024-12-20 12:21:40.833 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/4 responded 200 in 427.6330 ms
+2024-12-20 16:59:05.296 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 16:59:05.312 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 16:59:05.313 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 16:59:05.313 +02:00 [INF] Hosting environment: Development
+2024-12-20 16:59:05.314 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 16:59:16.382 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/2 responded 401 in 46.8922 ms
+2024-12-20 16:59:49.348 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 933.9597 ms
+2024-12-20 17:00:04.504 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/2 responded 200 in 285.4699 ms
+2024-12-20 17:45:42.797 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 17:45:42.813 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 17:45:42.814 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 17:45:42.815 +02:00 [INF] Hosting environment: Development
+2024-12-20 17:45:42.815 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 17:45:43.447 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference ' guid' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-20 17:45:43.674 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference ' guid' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-20 17:46:00.681 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 17:46:00.696 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 17:46:00.697 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 17:46:00.698 +02:00 [INF] Hosting environment: Development
+2024-12-20 17:46:00.699 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 17:46:01.077 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference ' guid' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-20 17:46:01.298 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference ' guid' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-20 17:48:35.949 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 17:48:35.965 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 17:48:35.966 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 17:48:35.967 +02:00 [INF] Hosting environment: Development
+2024-12-20 17:48:35.967 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 17:48:36.616 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference ' Guid' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-20 17:48:36.830 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference ' Guid' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-20 17:48:56.630 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 17:48:56.646 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 17:48:56.648 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 17:48:56.648 +02:00 [INF] Hosting environment: Development
+2024-12-20 17:48:56.649 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 18:21:35.943 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 18:21:35.959 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 18:21:35.960 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 18:21:35.961 +02:00 [INF] Hosting environment: Development
+2024-12-20 18:21:35.962 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 18:22:22.295 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1166.2877 ms
+2024-12-20 18:22:57.336 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/4 responded 200 in 463.9649 ms
+2024-12-20 18:23:22.798 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/5 responded 200 in 16.5973 ms
+2024-12-20 18:28:48.588 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 18:28:48.603 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 18:28:48.605 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 18:28:48.606 +02:00 [INF] Hosting environment: Development
+2024-12-20 18:28:48.606 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 18:29:09.822 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1164.8147 ms
+2024-12-20 18:36:22.594 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 169.2572 ms
+2024-12-20 18:36:46.282 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/6 responded 200 in 379.1333 ms
+2024-12-20 18:39:19.949 +02:00 [INF] HTTP POST /api/Base/SellOrder/f8991b0e-b0d6-4664-bbfb-1bc3c0638a93 responded 400 in 25.8637 ms
+2024-12-20 18:39:45.150 +02:00 [INF] HTTP POST /api/Base/SellOrder/f8991b0e-b0d6-4664-bbfb-1bc3c0638a93 responded 400 in 5.0399 ms
+2024-12-20 18:45:16.094 +02:00 [INF] HTTP POST /api/Base/SellOrder/f8991b0e-b0d6-4664-bbfb-1bc3c0638a93 responded 400 in 1.5637 ms
+2024-12-20 18:45:19.926 +02:00 [INF] HTTP POST /api/Base/SellOrder/f8991b0e-b0d6-4664-bbfb-1bc3c0638a93 responded 400 in 1.4396 ms
+2024-12-20 18:46:11.008 +02:00 [INF] HTTP POST /api/Base/SellOrder/f8991b0e-b0d6-4664-bbfb-1bc3c0638a93 responded 400 in 4.3745 ms
+2024-12-20 18:46:18.111 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 108.4455 ms
+2024-12-20 18:46:36.384 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/6 responded 200 in 10.8676 ms
+2024-12-20 18:46:47.396 +02:00 [INF] HTTP POST /api/Base/SellOrder/f8991b0e-b0d6-4664-bbfb-1bc3c0638a93 responded 400 in 1.4348 ms
+2024-12-20 18:48:13.066 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 18:48:13.081 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 18:48:13.082 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 18:48:13.083 +02:00 [INF] Hosting environment: Development
+2024-12-20 18:48:13.083 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 18:48:46.306 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1171.0020 ms
+2024-12-20 18:49:08.438 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/4 responded 200 in 430.3405 ms
+2024-12-20 18:51:14.755 +02:00 [INF] HTTP POST /api/Base/SellOrder/e935a015-1a1b-496a-a381-1aa73b6434e3 responded 200 in 58225.2119 ms
+2024-12-20 22:23:30.735 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 22:23:30.752 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 22:23:30.753 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 22:23:30.754 +02:00 [INF] Hosting environment: Development
+2024-12-20 22:23:30.755 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 22:23:45.402 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 776.7939 ms
+2024-12-20 22:24:52.134 +02:00 [INF] HTTP POST /api/Base/SellOrder/e935a015-1a1b-496a-a381-1aa73b6434e3 responded 200 in 9222.4280 ms
+2024-12-20 22:26:38.417 +02:00 [INF] HTTP POST /api/Base/SellOrder/e935a015-1a1b-496a-a381-1aa73b6434e3 responded 200 in 3197.8705 ms
+2024-12-20 22:28:10.618 +02:00 [INF] HTTP POST /api/Base/SellOrder/e935a015-1a1b-496a-a381-1aa73b6434e3 responded 200 in 2270.2053 ms
+2024-12-20 22:28:26.696 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 54.5665 ms
+2024-12-20 22:29:04.868 +02:00 [INF] HTTP POST /api/Base/SellOrder/e935a015-1a1b-496a-a381-1aa73b6434e3 responded 200 in 1389.7690 ms
+2024-12-20 22:30:09.534 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-20 22:30:09.550 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-20 22:30:09.551 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-20 22:30:09.551 +02:00 [INF] Hosting environment: Development
+2024-12-20 22:30:09.552 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-20 22:30:23.786 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1167.2809 ms
+2024-12-20 22:30:57.716 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/12 responded 200 in 463.1980 ms
+2024-12-20 22:31:58.103 +02:00 [INF] HTTP POST /api/Base/SellOrder/e194bd69-d29c-4410-a6aa-48b5384828d4 responded 400 in 26.4860 ms
+2024-12-20 22:32:13.150 +02:00 [INF] HTTP POST /api/Base/SellOrder/e194bd69-d29c-4410-a6aa-48b5384828d4 responded 400 in 10.7980 ms
+2024-12-20 22:32:23.231 +02:00 [INF] HTTP POST /api/Base/SellOrder/e194bd69-d29c-4410-a6aa-48b5384828d4 responded 400 in 7.3370 ms
+2024-12-20 22:32:49.754 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 77.1672 ms
+2024-12-20 22:33:18.642 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/12 responded 200 in 6.9536 ms
+2024-12-20 22:34:01.899 +02:00 [INF] HTTP POST /api/Base/SellOrder/e194bd69-d29c-4410-a6aa-48b5384828d4 responded 200 in 3338.7972 ms
+2024-12-20 22:34:23.977 +02:00 [INF] HTTP GET /api/Base/GetSellOrders/12 responded 200 in 25.5060 ms

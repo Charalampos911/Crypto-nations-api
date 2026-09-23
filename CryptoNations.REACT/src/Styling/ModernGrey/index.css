@@ -1,0 +1,18 @@
+    *{
+        /* overflow-y: -webkit-paged-y; */
+        overflow: visible;
+        -webkit-overflow-scrolling: touch;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    #root,body,html{
+        min-width: 270px !important; /* Set the absolute smallerst screen*/
+        overflow: hidden;
+    } 
+    /* General behaviour styles*/
+    body {
+        margin: 0 !important;
+        -ms-overflow-style: scrollbar;
+        user-select: text;
+    }

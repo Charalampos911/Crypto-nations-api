@@ -1,0 +1,41 @@
+/* For inheritance */
+
+.TheShadeedButton {
+    display: flex;
+    gap: 6px;
+    background-color: rgba(255, 255, 255, 0.07);
+    width: fit-content;
+    padding: 6px 34px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #bdbd262b;
+    padding: 24px;
+    line-height: 15px;
+}
+.TheShadeedButton:hover{
+    text-decoration: underline;
+    text-decoration-color:var(--Flags-Gold) ;
+}
+
+/* For inheritance */
+
+.Portfolio > .OtherHolding{}
+
+.Portfolio > .OtherHolding >div{
+    display: flex;
+    justify-content: center;
+}
+.Portfolio > .OtherHolding >label{
+font-style: italic;
+font-size: 12px;
+
+}
+
+
+.Portfolio > .OtherHolding >div >div{
+    @extend .TheShadeedButton;
+}
+.Portfolio > .OtherHolding >div >div > div{
+    font-family: ui-monospace;
+}

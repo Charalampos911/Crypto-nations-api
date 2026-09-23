@@ -1,0 +1,150 @@
+.TheShadeedButton {
+    display: flex;
+    gap: 6px;
+    background-color: rgba(255, 255, 255, 0.07);
+    width: fit-content;
+    padding: 6px 34px;
+    border-radius: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.IsMath{
+    white-space: nowrap;
+    color: var(--Flags-Gold);
+    font-family: math;
+}
+.TheShadeedButton:hover {
+    background-color: rgba(255, 255, 255, 0.141);
+}
+.The-Token {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > .Section {
+        width: 60%;
+        min-width: 250px;
+        max-width: 500px;
+        span:has(input){
+            margin-left: 6px;
+            margin-right: 6px;   
+        }
+        .Math{
+            @extend .IsMath;
+        }
+        > div {
+            > .Section-Title {
+                color: var(--Flags-Black);
+                display: flex;
+                align-items: center;
+                gap: 6px;
+
+                > svg {
+                    color: var(--Flags-Beige);
+                    transform: rotate(90deg);
+                }
+            }
+            > .Event-trigger {
+                display: flex;
+                justify-content: center; 
+                >div{
+                    @extend .TheShadeedButton;
+                }
+            }
+            > .Section-Content {
+                display: flex;
+                flex-direction: column;
+
+                > div {
+                    margin-left: 10%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    margin-bottom: 10px;
+
+                    &.Event {
+                        display: flex;
+                        justify-content: flex-start;
+                        flex-direction: column;
+
+                        > div:nth-of-type(1) {
+                            text-align: left;
+                            position: relative;
+
+                            > .Event-content > svg {
+                                color: #ff7100;
+                                position: absolute;
+                                top: 0px;
+                                left: -18px;
+                            }
+                        }
+                    }
+
+                    > span {
+                        text-align: left;
+
+                        > span {
+                            white-space: nowrap;
+                            color: var(--Flags-Gold);
+                            font-family: math;
+
+                            > span {
+                                color: var(--Flags-Gold);
+                            }
+                        }
+                    }
+                }
+
+                > .Event > .Event-trigger {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    > div {
+                        @extend .TheShadeedButton;
+                    }
+                }
+
+                &.Banks,
+                &.Investors {
+                    margin-left: 0% !important;
+                }
+            }
+        }
+
+        > .Event-trigger {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            > div {
+                @extend .TheShadeedButton;
+            }
+        }
+    }
+
+    input[type="text"] {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: var(--Flags-Beige);
+        border: 1px solid #555;
+        border-width: 0px 0px 2px 0px;
+        border-radius: 2px;
+        padding: 2px 4px;
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size: 12px;
+        width: 40px;
+        font-family: math;
+        letter-spacing: 1px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        outline: none;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+
+        &:focus {
+            background-color: rgba(0, 0, 0, 0.7);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+            border-color: #888;
+        }
+    }
+}

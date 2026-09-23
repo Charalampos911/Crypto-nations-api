@@ -1,0 +1,142 @@
+%main-label {
+    color: var(--Grey-font-A);
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 5px;
+    display: block;
+    width: 75%;
+    text-align: center;
+    background-color: var(--Grey-50);
+  }
+  %basic-input{
+    background-color: var(--Grey-600);
+    border-radius: 8px;
+    border: 0px solid transparent;
+    text-align: center;
+    width: 60px;
+  }
+  input{
+    @extend %basic-input;
+  }
+  %Process-Button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    >div{
+        background-color: rgba(255, 255, 255, 0.0705882353);
+        width: fit-content;
+        padding: 6px 34px;
+        border-radius: 16px;
+        margin-top: 10px;
+        cursor: pointer;
+        &:hover {
+            background-color: #ffffff26;
+          }
+        >div{
+            text-align: center;
+            background-color: var(--Grey-600);
+            padding: 8px 24px 8px 24px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+            gap: 6px;
+            justify-content: center;
+            >svg{
+                color: var(--Muted-Blue);
+                animation: rotate 5s linear infinite;
+    
+            }
+        }
+    }
+  }
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .NoEvents{
+    pointer-events: none;
+  }
+  .Process{
+    @extend %Process-Button;
+  }
+  %Finances-layout {
+    color: var(--Grey-font-A);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    > label {
+      @extend %main-label;
+    }
+    
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      
+      > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        > div:nth-of-type(1) {
+          display: flex;
+          gap: 10px;
+          flex-direction: row;
+        }
+      }
+    }
+  }
+  %default-list{
+    width: 100%;
+    gap: 8px;
+    >div{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        padding: 10px;
+        border-radius: 20px;
+        width: calc(100% - 20px);
+        justify-content: center;
+        color: var(--Grey-font-A);
+        &:nth-of-type(odd){
+            background-color: var(--Grey-200);
+            
+        }
+        &:nth-of-type(even){
+            background-color: var(--Grey-400);
+        
+        }
+        &:hover{
+            background-color: var(--Muted-Blue-hover);
+        }
+        &.Selected{
+            background-color: var(--Muted-Blue);
+        }
+    }
+  }
+%Select-item{
+  color: var(--Grey-50);
+  background-color: var(--Muted-Blue);
+  width: 92%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  // max-width: 270px;
+  // overflow-x: hidden;
+}

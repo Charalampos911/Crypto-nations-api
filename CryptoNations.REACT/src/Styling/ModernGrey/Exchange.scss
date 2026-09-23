@@ -1,0 +1,276 @@
+/* For inheritance */
+$mobile: 768px;
+$tablet: 1024px;
+@use './utilities';
+
+
+.Portfolio{
+    @extend %default-list;
+    >div{
+        >div{
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
+        *{
+            font-family: auto;
+            
+        }
+    }
+
+}
+.OwnSellOrders{
+    @extend %default-list;
+    >div{
+        >div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-weight: 800;
+            >div{
+                display: flex;
+                align-content: center;
+                align-items: center;
+            }
+            *{
+                font-family: auto;
+            }
+        }
+    }
+
+}
+.CoinToCoin{
+    width: 100%;
+    .Front{
+        z-index: 30;
+        svg{
+            z-index: 31 !important;  
+        }
+    }
+    >div:not(.Exchange-Phase-AB ):not(.msg-0):not(.Process){
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+
+    }
+    .Exchange-Phase-AB{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: var(--Grey-200);
+        border-radius: 10px;
+        margin-top: 8px;
+        >div{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            flex-direction: column;
+            align-items: center;
+            &:nth-of-type(1){
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                width: 40%;
+            }
+            &:nth-of-type(2){
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 46%;
+                >div{
+
+                    display: flex;
+                    flex-direction: row;
+                    align-content: center;
+                    align-items: center;
+                    gap: 6px;
+                
+                }
+            }
+        }
+    }
+    .msg-0{
+        color: var(--Grey-font-A);
+        padding: 8px;
+        font-style: italic;
+        font-family: auto;
+        display: flex;
+        flex-direction: row !important;
+        align-content: center;
+        align-items: center;
+        gap: 8px;
+        justify-content: center;
+    }
+    .Drop{
+        min-width: 240px;
+        &.Large{
+            height: 64px;
+            &:has(>div.Placeholder){
+                height: 40px;
+            }
+        }
+        &:has(.Placeholder > .OtherSellOrders){
+            background-color: red;  
+            height: 64px;
+            svg{
+  
+                top: 26px;
+            }
+            .Placeholder {
+                background-color: var(--Grey-50);
+                min-height: 64px;
+                z-index: 1;
+            }
+        }
+        background-color: var(--Grey-200);
+        display: flex;
+        width: 94%;
+        justify-content: flex-start;
+        border-radius: 10px;
+        padding: 8px;
+        position: relative;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        height: 40px;
+        overflow: hidden;
+        &:has(>div.Selecting){
+            overflow: visible;
+        }
+        >svg{
+            color: var(--Grey-200);
+            position: absolute;
+            right: 24px;
+            font-size: 24px;
+            top: 16px;
+            z-index: 13;
+        }
+        >div{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+          
+            border-radius: 20px;
+            &.Selecting{
+                background-color: var(--Grey-400);
+                padding-top: 40px;
+                position: relative;
+                top: -40px;
+                padding-bottom: 10px;
+
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    overflow: scroll;
+                    max-height: 240px;
+                    >div{
+                        width: 88%;
+                        margin-left: 2%;
+                        position: relative;
+                        >div{
+                            display: flex;
+                            flex-direction: row;
+                            align-content: center;
+                            align-items: center;
+                            &.OtherSellOrders{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                align-content: center;
+                                >div{
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-content: center;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                            }
+                        }
+                        >span{
+                            color: var(--Grey-50);
+                            position: absolute;
+                            left: -4px;
+                            font-size: 11px;
+                            display: block;
+                            width: 24px;
+                            text-align: end;
+                        }
+                        &:hover{
+                            color: var(--Muted-Blue);
+                            background-color: var(--Muted-Blue-hover);
+    
+                            >div{
+                                font-family: auto;
+                                font-weight: 900;
+                            }
+                        }
+                    }
+                }
+            }
+            >div{
+                width: 100%;  
+                max-width: 270px;
+                overflow-x: hidden;
+                >div{
+                    @extend %Select-item;
+                    &.selected{
+                        background-color: var(--Grey-50);
+                        color: var(--Muted-Blue);
+                    }
+                }
+
+            }
+
+        }
+        .Placeholder{
+            background-color: var(--Grey-50);
+            min-height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 11;
+            >div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .Selected{
+            color: var(--Muted-Blue);
+            position: relative;
+            background-color: var(--Grey-50);
+            z-index: 1;
+            >.OtherSellOrders{
+                display: flex;
+                flex-direction: column;
+                >div{
+                    padding: 0px;
+                }
+            }
+            >div{
+                @extend %Select-item;
+            }
+        }
+    
+    }
+
+}
+
+.CurrentlySelected{
+    pointer-events: none;
+    background-color: var(--Grey-font-A) !important;
+    color: var(--Grey-100) !important;
+}

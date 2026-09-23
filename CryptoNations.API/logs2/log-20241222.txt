@@ -1,0 +1,81 @@
+2024-12-22 01:12:04.850 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-22 01:12:04.867 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-22 01:12:04.868 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 01:12:04.869 +02:00 [INF] Hosting environment: Development
+2024-12-22 01:12:04.869 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-22 01:12:42.524 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 885.8668 ms
+2024-12-22 01:13:03.116 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/17 responded 200 in 264.2667 ms
+2024-12-22 01:13:20.490 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/18 responded 200 in 11.4433 ms
+2024-12-22 01:14:04.160 +02:00 [INF] HTTP POST /api/Base/ExchangeCoinsStepA responded 200 in 41.0094 ms
+2024-12-22 01:14:19.755 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/18 responded 200 in 3.4602 ms
+2024-12-22 22:52:22.523 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-22 22:52:22.538 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-22 22:52:22.539 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 22:52:22.540 +02:00 [INF] Hosting environment: Development
+2024-12-22 22:52:22.540 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-22 22:52:40.126 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1298.2019 ms
+2024-12-22 22:53:16.528 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/21 responded 200 in 461.6932 ms
+2024-12-22 22:53:43.661 +02:00 [INF] HTTP GET /api/Base/GetOtherSellOrders/21 responded 200 in 33.6735 ms
+2024-12-22 22:56:42.016 +02:00 [INF] HTTP POST /api/Base/ExchangeCoinsStepB responded 404 in 42972.0386 ms
+2024-12-22 23:01:49.027 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-22 23:01:49.043 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-22 23:01:49.044 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:01:49.044 +02:00 [INF] Hosting environment: Development
+2024-12-22 23:01:49.045 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-22 23:02:11.365 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1158.1606 ms
+2024-12-22 23:02:49.717 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/25 responded 200 in 527.4791 ms
+2024-12-22 23:03:11.594 +02:00 [INF] HTTP GET /api/Base/GetOtherSellOrders/25 responded 200 in 33.9204 ms
+2024-12-22 23:09:43.121 +02:00 [INF] HTTP POST /api/Base/ExchangeCoinsStepB responded 200 in 339477.0743 ms
+2024-12-22 23:11:20.809 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/25 responded 200 in 8.9998 ms
+2024-12-22 23:15:50.052 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/25 responded 200 in 6.7828 ms
+2024-12-22 23:18:43.052 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-22 23:18:43.068 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-22 23:18:43.070 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:18:43.070 +02:00 [INF] Hosting environment: Development
+2024-12-22 23:18:43.071 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-22 23:28:54.703 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-22 23:28:54.719 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-22 23:28:54.720 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:28:54.721 +02:00 [INF] Hosting environment: Development
+2024-12-22 23:28:54.721 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-22 23:32:57.432 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1166.4834 ms
+2024-12-22 23:34:34.853 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/41 responded 200 in 461.2263 ms
+2024-12-22 23:34:58.246 +02:00 [INF] HTTP GET /api/Base/GetOtherSellOrders/41 responded 200 in 30.3082 ms
+2024-12-22 23:35:56.294 +02:00 [INF] HTTP POST /api/Base/SellOrder/1c694024-4af5-41e5-a868-d0662fb54ce9 responded 200 in 95.0645 ms
+2024-12-22 23:36:11.767 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/42 responded 200 in 6.5413 ms
+2024-12-22 23:36:43.783 +02:00 [INF] HTTP POST /api/Base/SellOrder/3bb246b7-0558-4ff2-9d48-f34741658877 responded 200 in 4.2896 ms
+2024-12-22 23:37:03.122 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/43 responded 200 in 3.8035 ms
+2024-12-22 23:37:32.408 +02:00 [INF] HTTP GET /api/Base/GetOtherSellOrders/43 responded 200 in 7.9218 ms
+2024-12-22 23:38:11.100 +02:00 [INF] HTTP GET /api/Base/GetOtherSellOrders/44 responded 200 in 6.6124 ms
+2024-12-22 23:38:13.980 +02:00 [INF] HTTP GET /api/Base/GetOtherSellOrders/44 responded 200 in 3.7871 ms
+2024-12-22 23:38:27.335 +02:00 [INF] HTTP POST /api/Base/SellOrder/3bb246b7-0558-4ff2-9d48-f34741658877 responded 200 in 3.9994 ms
+2024-12-22 23:38:29.993 +02:00 [INF] HTTP POST /api/Base/SellOrder/3bb246b7-0558-4ff2-9d48-f34741658877 responded 200 in 3.7313 ms
+2024-12-22 23:38:54.472 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/43 responded 200 in 6.6190 ms
+2024-12-22 23:39:03.353 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/42 responded 200 in 6.5097 ms
+2024-12-22 23:39:08.581 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/41 responded 200 in 10.7169 ms
+2024-12-22 23:39:38.653 +02:00 [INF] HTTP GET /api/Base/GetNationalSellOrders/43 responded 200 in 10.0750 ms
+2024-12-22 23:39:43.169 +02:00 [INF] HTTP GET /api/Base/GetNationalSellOrders/42 responded 200 in 3.6544 ms
+2024-12-22 23:39:46.863 +02:00 [INF] HTTP GET /api/Base/GetNationalSellOrders/41 responded 200 in 9.4831 ms
+2024-12-22 23:40:06.812 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/42 responded 200 in 5.5869 ms
+2024-12-22 23:42:54.912 +02:00 [INF] HTTP POST /api/Base/ExchangeCoinsStepB responded 200 in 114291.6373 ms
+2024-12-22 23:44:49.200 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/42 responded 200 in 6.4918 ms
+2024-12-22 23:45:28.523 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/41 responded 200 in 5.9399 ms
+2024-12-22 23:46:32.953 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/42 responded 200 in 7.4315 ms
+2024-12-22 23:50:39.994 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-22 23:50:40.009 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-22 23:50:40.010 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:50:40.011 +02:00 [INF] Hosting environment: Development
+2024-12-22 23:50:40.012 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-22 23:50:53.754 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1155.2254 ms
+2024-12-22 23:51:46.416 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/41 responded 200 in 427.0840 ms
+2024-12-22 23:51:59.902 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/42 responded 200 in 16.5079 ms
+2024-12-22 23:53:35.543 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/42 responded 200 in 7.9250 ms
+2024-12-22 23:54:02.296 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 71.4869 ms
+2024-12-22 23:54:25.763 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/41 responded 200 in 11.0561 ms
+2024-12-22 23:55:34.815 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-22 23:55:34.830 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-22 23:55:34.831 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-22 23:55:34.832 +02:00 [INF] Hosting environment: Development
+2024-12-22 23:55:34.832 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-22 23:55:47.574 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1175.8209 ms
+2024-12-22 23:56:12.077 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/41 responded 200 in 488.8472 ms

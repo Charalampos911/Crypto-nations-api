@@ -1,0 +1,222 @@
+:root {
+  --leaf: greenyellow;
+  --bark: rgba(93, 64, 55, 0.5);
+}
+
+.Type-C {
+  > .TheGreatSlider {
+    > div {
+      > input[type=range] {
+        &::-webkit-slider-thumb {
+          background-color: rgb(117, 1, 1);
+        }
+      }
+    }
+  }
+}
+.National-Parameters {
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  >span{
+    position: fixed;
+    bottom: 4px;
+    right: calc(50% - 40px);
+    >div{
+
+      color: var(--Flags-Black);
+      >svg{
+        height: 15px;
+        width: 15px;
+        padding: 5px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        border: 4px solid var(--Flags-Black);
+        cursor: pointer;
+        font-size: 10px;
+      }
+      &:hover >svg{
+        background-color: var(--Flags-White);
+        border: 4px solid var(--Flags-Gold);
+      }
+    }
+  }
+  >label{
+    color: var(--Grey-font-A);
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: sticky;
+    top: -30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--Grey-50);
+  }
+}
+
+
+.Slider-cont {
+  width: clamp(300px, 45%, 600px);
+
+
+  &:not(.Type-C) {
+    > .TheGreatSlider {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.TheGreatSlider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    .val {
+      font-family: math;
+      height: 2em;
+    }
+
+    .val.ps {
+      color: var(--Flags-Black);
+      position: absolute;
+      top: 32px;
+      right: -46px;
+
+      text-align: left;
+    }
+    .btnSave{
+      height: 24px;
+      width: 24px;
+      padding: 6px;
+      margin-top: 14px;
+      border-radius: 50px;
+      background-color: var(--Muted-Blue);
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      cursor: pointer;
+      cursor: pointer;
+      >div{
+        color: var(--Grey-font-A);
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        &.Waiting{
+          animation: rotate 5s linear infinite;
+        }
+      }
+    }
+    .btnSave:hover{
+      background-color: var(--Muted-Blue-hover);
+
+    }
+  }
+
+  input[type=range] {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1;
+    height: 2.6em;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 100%;
+    max-width: 300px;
+    opacity: 0.7;
+
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      position: relative;
+      top: 20px;
+      width: 24px;
+      height: 24px;
+      margin-top: 0;
+      background-color: #7ff2ff7b;
+      border-radius: 20px;
+      border: 4px solid var(--Grey-font-A);
+      cursor: pointer;
+      caret-color: transparent;
+      &:hover{
+        border: 9px solid #05606a;
+        background-color: transparent;
+      }
+    }
+
+    &::-moz-range-thumb,
+    &::-ms-thumb {
+      position: relative;
+      top: -2px;
+      width: 2em;
+      height: 2em;
+      margin-top: 0;
+      background-color: var(--leaf);
+      border-radius: 1em;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+    }
+
+    &:hover {
+      &::-webkit-slider-thumb,
+      &::-moz-range-thumb,
+      &::-ms-thumb {
+        border-color: var(--Flags-Beige);
+      }
+    }
+
+    &:active {
+      &::-webkit-slider-thumb,
+      &::-moz-range-thumb,
+      &::-ms-thumb {
+        border-color: #ffffff;
+      }
+    }
+
+    &::-webkit-slider-runnable-track,
+    &::-moz-range-track,
+    &::-ms-track {
+      width: 100%;
+      cursor: pointer;
+      height: 1em;
+      background-color: transparent;
+    }
+  }
+
+  .Golden {
+    color: var(--Flags-Black);
+
+    &.value {
+      position: absolute;
+      top: 32px;
+      left: -40px;
+      width: 40px;
+    }
+    &.temp{
+      color: var(--Flags-Beige);
+      position: absolute;
+      top: 10px;
+      font-size: 12px;
+      font-family: math;
+      pointer-events: none;
+    }
+  }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

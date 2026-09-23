@@ -1,0 +1,403 @@
+2025-01-03 00:30:36.101 +02:00 [INF] Now listening on: https://localhost:7081
+2025-01-03 00:30:36.120 +02:00 [INF] Now listening on: http://localhost:5249
+2025-01-03 00:30:36.121 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 00:30:36.122 +02:00 [INF] Hosting environment: Development
+2025-01-03 00:30:36.122 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2025-01-03 00:31:03.910 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1369.2614 ms
+2025-01-03 00:31:04.456 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 507.6676 ms
+2025-01-03 00:36:05.221 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 78.2340 ms
+2025-01-03 00:36:05.267 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 22.8358 ms
+2025-01-03 00:36:17.753 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 69.1785 ms
+2025-01-03 00:36:17.780 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 7.9801 ms
+2025-01-03 00:36:17.894 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/976acf86-521c-47f8-9131-42bd023a1d7e responded 200 in 89.7711 ms
+2025-01-03 00:36:20.114 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 191.6351 ms
+2025-01-03 00:36:20.130 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/1 responded 200 in 5.9605 ms
+2025-01-03 00:36:20.160 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/976acf86-521c-47f8-9131-42bd023a1d7e responded 200 in 5.5945 ms
+2025-01-03 00:36:25.552 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 65.0195 ms
+2025-01-03 00:36:25.582 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/1 responded 200 in 5.5673 ms
+2025-01-03 01:26:00.405 +02:00 [INF] Now listening on: https://localhost:7081
+2025-01-03 01:26:00.422 +02:00 [INF] Now listening on: http://localhost:5249
+2025-01-03 01:26:00.423 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 01:26:00.423 +02:00 [INF] Hosting environment: Development
+2025-01-03 01:26:00.424 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2025-01-03 01:26:16.419 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 776.6189 ms
+2025-01-03 01:26:16.722 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/1 responded 200 in 263.8548 ms
+2025-01-03 01:26:25.173 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 50.4890 ms
+2025-01-03 01:26:25.228 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 20.3388 ms
+2025-01-03 01:27:02.550 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 44.0648 ms
+2025-01-03 01:27:02.576 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 404 in 11.3285 ms
+2025-01-03 01:27:02.656 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/976acf86-521c-47f8-9131-42bd023a1d7e responded 200 in 60.9163 ms
+2025-01-03 01:27:05.791 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 41.2219 ms
+2025-01-03 01:27:05.839 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 404 in 12.9454 ms
+2025-01-03 01:27:12.771 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 41.3850 ms
+2025-01-03 01:27:12.894 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/2 responded 200 in 86.5769 ms
+2025-01-03 01:27:16.569 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 41.1628 ms
+2025-01-03 01:27:16.612 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 10.5057 ms
+2025-01-03 01:27:19.597 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 40.1031 ms
+2025-01-03 01:27:19.642 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 6.5590 ms
+2025-01-03 01:27:26.315 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 39.6990 ms
+2025-01-03 01:27:26.325 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 3.7014 ms
+2025-01-03 01:27:26.357 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/63e3eaef-cc05-4b19-808c-37a874d41b0c responded 200 in 3.5077 ms
+2025-01-03 01:27:29.255 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 40.6779 ms
+2025-01-03 01:27:29.279 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalPortfolio/2 responded 200 in 3.1855 ms
+2025-01-03 01:27:29.309 +02:00 [INF] HTTP PUT /api/CryptoNations/SellOrder/63e3eaef-cc05-4b19-808c-37a874d41b0c responded 200 in 3.5565 ms
+2025-01-03 01:27:32.555 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 39.9285 ms
+2025-01-03 01:27:32.592 +02:00 [INF] HTTP GET /api/CryptoNations/GetNationalSellOrders/2 responded 200 in 3.5572 ms
+2025-01-03 01:28:30.743 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 43.0924 ms
+2025-01-03 01:28:30.763 +02:00 [INF] HTTP GET /api/CryptoNations/GetOtherSellOrders/2 responded 200 in 3.1291 ms
+2025-01-03 14:40:06.734 +02:00 [INF] Now listening on: https://localhost:7081
+2025-01-03 14:40:06.751 +02:00 [INF] Now listening on: http://localhost:5249
+2025-01-03 14:40:06.753 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 14:40:06.754 +02:00 [INF] Hosting environment: Development
+2025-01-03 14:40:06.754 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2025-01-03 14:40:35.608 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.6771 ms
+2025-01-03 14:40:36.935 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1319.0497 ms
+2025-01-03 14:41:33.753 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 3.1996 ms
+2025-01-03 14:41:33.866 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 107.4929 ms
+2025-01-03 15:04:37.411 +02:00 [INF] Now listening on: https://localhost:7081
+2025-01-03 15:04:37.427 +02:00 [INF] Now listening on: http://localhost:5249
+2025-01-03 15:04:37.428 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 15:04:37.429 +02:00 [INF] Hosting environment: Development
+2025-01-03 15:04:37.429 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2025-01-03 15:23:35.785 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.3362 ms
+2025-01-03 15:23:36.568 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 775.9204 ms
+2025-01-03 15:23:36.574 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.2265 ms
+2025-01-03 15:23:36.791 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-03 15:23:36.792 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-03 15:23:36.870 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 290.0117 ms
+2025-01-03 15:24:31.968 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.5702 ms
+2025-01-03 15:24:31.970 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.5406 ms
+2025-01-03 15:24:32.000 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 21.6764 ms
+2025-01-03 15:24:32.032 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 56.2095 ms
+2025-01-03 15:24:32.050 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 9.6153 ms
+2025-01-03 15:44:01.487 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.1406 ms
+2025-01-03 15:44:01.487 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0185 ms
+2025-01-03 15:44:01.557 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 58.5572 ms
+2025-01-03 15:44:01.567 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 13.6392 ms
+2025-01-03 15:44:01.593 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 95.5432 ms
+2025-01-03 15:44:01.598 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 49.5046 ms
+2025-01-03 15:44:01.609 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.6711 ms
+2025-01-03 15:44:01.618 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.8189 ms
+2025-01-03 15:44:03.535 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.2937 ms
+2025-01-03 15:44:03.570 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 42.0891 ms
+2025-01-03 15:44:03.583 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 5.3243 ms
+2025-01-03 15:45:09.814 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.4977 ms
+2025-01-03 15:45:09.872 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 52.0928 ms
+2025-01-03 15:45:09.877 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0311 ms
+2025-01-03 15:45:09.892 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 12.3032 ms
+2025-01-03 15:45:24.464 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.5031 ms
+2025-01-03 15:45:24.464 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.6843 ms
+2025-01-03 15:45:24.476 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.5899 ms
+2025-01-03 15:45:24.510 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 39.8232 ms
+2025-01-03 15:45:24.522 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 5.1518 ms
+2025-01-03 15:45:50.120 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0519 ms
+2025-01-03 15:45:50.173 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 45.5512 ms
+2025-01-03 15:45:50.179 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0325 ms
+2025-01-03 15:45:50.190 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.9254 ms
+2025-01-03 15:46:05.171 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0854 ms
+2025-01-03 15:46:05.208 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-01-03 15:46:05.256 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 82.2305 ms
+2025-01-03 16:09:51.078 +02:00 [INF] Now listening on: https://localhost:7081
+2025-01-03 16:09:51.095 +02:00 [INF] Now listening on: http://localhost:5249
+2025-01-03 16:09:51.096 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 16:09:51.097 +02:00 [INF] Hosting environment: Development
+2025-01-03 16:09:51.097 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025 - Copy\CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2025-01-03 16:11:48.703 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 1.1939 ms
+2025-01-03 16:11:49.594 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 884.3066 ms
+2025-01-03 16:11:49.601 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.2728 ms
+2025-01-03 16:11:49.830 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-03 16:11:49.831 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-01-03 16:11:49.910 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 301.7453 ms
+2025-01-03 16:11:56.604 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.0895 ms
+2025-01-03 16:11:56.657 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-01-03 16:11:56.715 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 106.7869 ms
+2025-01-03 16:12:57.804 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/1 responded 204 in 0.1921 ms
+2025-01-03 16:12:57.852 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/1 responded 200 in 41.7219 ms
+2025-01-03 16:13:14.612 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/4 responded 204 in 0.0549 ms
+2025-01-03 16:13:14.623 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/4 responded 200 in 7.8622 ms
+2025-01-03 16:18:19.882 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.2054 ms
+2025-01-03 16:18:19.884 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0402 ms
+2025-01-03 16:18:19.918 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 18.1861 ms
+2025-01-03 16:18:19.929 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 11.1468 ms
+2025-01-03 16:18:19.985 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 88.5795 ms
+2025-01-03 16:18:19.986 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 76.4635 ms
+2025-01-03 16:18:19.999 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0769 ms
+2025-01-03 16:18:20.007 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.2491 ms
+2025-01-03 16:18:57.671 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0583 ms
+2025-01-03 16:18:57.677 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0503 ms
+2025-01-03 16:18:57.702 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 13.3617 ms
+2025-01-03 16:18:57.714 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 13.7855 ms
+2025-01-03 16:18:57.741 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 58.4253 ms
+2025-01-03 16:18:57.749 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 48.9792 ms
+2025-01-03 16:18:57.754 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.2485 ms
+2025-01-03 16:18:57.762 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8506 ms
+2025-01-03 16:20:18.796 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/3 responded 204 in 0.1748 ms
+2025-01-03 16:20:18.810 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/3 responded 200 in 10.6415 ms
+2025-01-03 16:27:38.968 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.1650 ms
+2025-01-03 16:27:38.968 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0348 ms
+2025-01-03 16:27:39.042 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 61.8910 ms
+2025-01-03 16:27:39.054 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 12.0046 ms
+2025-01-03 16:27:39.082 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 84.9865 ms
+2025-01-03 16:27:39.083 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 103.4122 ms
+2025-01-03 16:27:39.095 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.4253 ms
+2025-01-03 16:27:39.102 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4800 ms
+2025-01-03 16:27:42.507 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 12.4241 ms
+2025-01-03 16:27:42.551 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 56.2552 ms
+2025-01-03 16:27:42.589 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0588 ms
+2025-01-03 16:27:42.598 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.6876 ms
+2025-01-03 16:27:45.153 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0698 ms
+2025-01-03 16:27:45.153 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0819 ms
+2025-01-03 16:27:45.170 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 9.2754 ms
+2025-01-03 16:27:45.209 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 51.9767 ms
+2025-01-03 16:27:45.249 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.7891 ms
+2025-01-03 16:27:45.256 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6105 ms
+2025-01-03 16:27:45.265 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.7339 ms
+2025-01-03 16:27:49.328 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 10.3044 ms
+2025-01-03 16:27:49.375 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 57.8817 ms
+2025-01-03 16:27:49.416 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.2889 ms
+2025-01-03 16:27:49.423 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8098 ms
+2025-01-03 16:27:49.431 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.0489 ms
+2025-01-03 16:27:49.438 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9158 ms
+2025-01-03 16:27:49.550 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.4452 ms
+2025-01-03 16:27:49.583 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 43.5849 ms
+2025-01-03 16:27:49.621 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9036 ms
+2025-01-03 16:27:49.629 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.1310 ms
+2025-01-03 16:27:49.636 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.3489 ms
+2025-01-03 16:27:49.645 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.2046 ms
+2025-01-03 16:27:49.652 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4011 ms
+2025-01-03 16:27:49.752 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 9.1846 ms
+2025-01-03 16:27:49.788 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 45.1699 ms
+2025-01-03 16:27:49.869 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0556 ms
+2025-01-03 16:27:49.876 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7313 ms
+2025-01-03 16:27:49.883 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9759 ms
+2025-01-03 16:27:49.890 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4027 ms
+2025-01-03 16:27:49.896 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.1600 ms
+2025-01-03 16:27:49.903 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.2857 ms
+2025-01-03 16:27:49.944 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.8337 ms
+2025-01-03 16:27:49.982 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 49.1187 ms
+2025-01-03 16:27:50.149 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.4925 ms
+2025-01-03 16:27:50.179 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0783 ms
+2025-01-03 16:27:50.180 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0755 ms
+2025-01-03 16:27:50.182 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0612 ms
+2025-01-03 16:27:50.181 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0457 ms
+2025-01-03 16:27:50.181 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0558 ms
+2025-01-03 16:27:50.185 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.3068 ms
+2025-01-03 16:27:50.182 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0464 ms
+2025-01-03 16:27:50.181 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0118 ms
+2025-01-03 16:27:50.196 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 10.0159 ms
+2025-01-03 16:27:50.189 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 49.1242 ms
+2025-01-03 16:27:50.203 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.2996 ms
+2025-01-03 16:27:50.213 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.4656 ms
+2025-01-03 16:27:50.228 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 15.5504 ms
+2025-01-03 16:27:50.234 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.2447 ms
+2025-01-03 16:27:50.241 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.6130 ms
+2025-01-03 16:27:50.248 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9535 ms
+2025-01-03 16:27:50.255 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.2221 ms
+2025-01-03 16:27:50.291 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0259 ms
+2025-01-03 16:27:50.299 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8944 ms
+2025-01-03 16:27:50.305 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.5257 ms
+2025-01-03 16:27:50.313 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.3871 ms
+2025-01-03 16:27:50.320 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7929 ms
+2025-01-03 16:27:50.329 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.8015 ms
+2025-01-03 16:27:50.329 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.1622 ms
+2025-01-03 16:27:50.336 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.5633 ms
+2025-01-03 16:27:50.344 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.0394 ms
+2025-01-03 16:27:50.352 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6528 ms
+2025-01-03 16:27:50.384 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 47.6390 ms
+2025-01-03 16:27:50.541 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.9537 ms
+2025-01-03 16:27:50.576 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 43.0671 ms
+2025-01-03 16:27:50.740 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.1197 ms
+2025-01-03 16:27:50.777 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 44.8735 ms
+2025-01-03 16:27:50.921 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.7388 ms
+2025-01-03 16:27:50.959 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 45.4260 ms
+2025-01-03 16:27:51.033 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7878 ms
+2025-01-03 16:27:51.044 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0757 ms
+2025-01-03 16:27:51.051 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4218 ms
+2025-01-03 16:27:51.058 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7117 ms
+2025-01-03 16:27:51.065 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6372 ms
+2025-01-03 16:27:51.071 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4657 ms
+2025-01-03 16:27:51.078 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4534 ms
+2025-01-03 16:27:51.085 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8102 ms
+2025-01-03 16:27:51.092 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.3897 ms
+2025-01-03 16:27:51.100 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.3638 ms
+2025-01-03 16:27:51.109 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.4515 ms
+2025-01-03 16:27:51.116 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.1566 ms
+2025-01-03 16:27:51.123 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.5040 ms
+2025-01-03 16:27:51.152 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7672 ms
+2025-01-03 16:27:51.160 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.2629 ms
+2025-01-03 16:27:51.161 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 59.2119 ms
+2025-01-03 16:27:51.167 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.2369 ms
+2025-01-03 16:27:51.174 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.2718 ms
+2025-01-03 16:27:51.180 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9559 ms
+2025-01-03 16:27:51.187 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4784 ms
+2025-01-03 16:27:51.194 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7653 ms
+2025-01-03 16:27:51.200 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4827 ms
+2025-01-03 16:27:51.243 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 42.9529 ms
+2025-01-03 16:27:51.245 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 44.6705 ms
+2025-01-03 16:27:51.247 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 46.3554 ms
+2025-01-03 16:27:51.244 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 43.5898 ms
+2025-01-03 16:27:51.247 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 47.0068 ms
+2025-01-03 16:27:51.287 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9431 ms
+2025-01-03 16:27:51.294 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8546 ms
+2025-01-03 16:27:51.302 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0928 ms
+2025-01-03 16:27:51.309 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7666 ms
+2025-01-03 16:27:51.316 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0682 ms
+2025-01-03 16:27:51.323 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9657 ms
+2025-01-03 16:27:51.330 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.4364 ms
+2025-01-03 16:27:51.338 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0715 ms
+2025-01-03 16:27:51.345 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.4046 ms
+2025-01-03 16:27:51.352 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9563 ms
+2025-01-03 16:27:51.359 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6677 ms
+2025-01-03 16:27:51.365 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.5896 ms
+2025-01-03 16:27:51.373 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9279 ms
+2025-01-03 16:27:51.380 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0965 ms
+2025-01-03 16:27:51.387 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.5156 ms
+2025-01-03 16:27:51.393 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.5102 ms
+2025-01-03 16:27:51.400 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.1004 ms
+2025-01-03 16:27:51.407 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8466 ms
+2025-01-03 16:27:51.414 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0630 ms
+2025-01-03 16:27:51.421 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0474 ms
+2025-01-03 16:27:51.428 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7757 ms
+2025-01-03 16:27:51.436 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.2345 ms
+2025-01-03 16:27:51.443 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.5404 ms
+2025-01-03 16:27:51.450 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0690 ms
+2025-01-03 16:27:51.457 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8868 ms
+2025-01-03 16:27:51.463 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6894 ms
+2025-01-03 16:27:52.040 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.1451 ms
+2025-01-03 16:27:52.048 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.6767 ms
+2025-01-03 16:27:52.055 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0722 ms
+2025-01-03 16:27:52.062 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4263 ms
+2025-01-03 16:27:52.068 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6656 ms
+2025-01-03 16:27:52.075 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.2728 ms
+2025-01-03 16:27:52.082 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9384 ms
+2025-01-03 16:27:52.089 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9672 ms
+2025-01-03 16:27:52.095 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6117 ms
+2025-01-03 16:27:52.103 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9842 ms
+2025-01-03 16:27:52.109 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 5.9949 ms
+2025-01-03 16:27:52.116 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7306 ms
+2025-01-03 16:27:52.123 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.3632 ms
+2025-01-03 16:27:55.203 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.1433 ms
+2025-01-03 16:27:55.215 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.1400 ms
+2025-01-03 16:27:55.249 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 46.5999 ms
+2025-01-03 16:27:55.295 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.0139 ms
+2025-01-03 16:27:55.306 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7609 ms
+2025-01-03 16:27:55.313 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.2058 ms
+2025-01-03 16:27:55.320 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0920 ms
+2025-01-03 16:27:55.327 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7319 ms
+2025-01-03 16:27:55.334 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.5337 ms
+2025-01-03 16:27:55.341 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.8982 ms
+2025-01-03 16:27:55.347 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.5831 ms
+2025-01-03 16:27:55.354 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7672 ms
+2025-01-03 16:27:55.362 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.5400 ms
+2025-01-03 16:27:55.369 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9778 ms
+2025-01-03 16:27:55.376 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.3361 ms
+2025-01-03 16:27:55.382 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6746 ms
+2025-01-03 16:27:55.389 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.1906 ms
+2025-01-03 16:27:55.414 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.1524 ms
+2025-01-03 16:27:55.422 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.2829 ms
+2025-01-03 16:27:55.457 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 40.5812 ms
+2025-01-03 16:27:55.952 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7924 ms
+2025-01-03 16:27:55.966 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6758 ms
+2025-01-03 16:27:55.973 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6172 ms
+2025-01-03 16:27:55.980 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.0817 ms
+2025-01-03 16:27:55.987 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9217 ms
+2025-01-03 16:27:55.994 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7409 ms
+2025-01-03 16:27:56.001 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4190 ms
+2025-01-03 16:27:56.007 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.4777 ms
+2025-01-03 16:27:56.014 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.9394 ms
+2025-01-03 16:27:56.059 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 44.5260 ms
+2025-01-03 16:27:56.059 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 44.5986 ms
+2025-01-03 16:27:56.061 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 46.4124 ms
+2025-01-03 16:27:56.061 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 46.3699 ms
+2025-01-03 16:27:56.060 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 45.3872 ms
+2025-01-03 16:27:56.062 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 47.1811 ms
+2025-01-03 16:28:10.207 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0938 ms
+2025-01-03 16:28:10.259 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 44.6555 ms
+2025-01-03 16:28:10.265 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0952 ms
+2025-01-03 16:28:10.275 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 7.3737 ms
+2025-01-03 16:28:15.702 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/10 responded 204 in 0.0408 ms
+2025-01-03 16:28:15.715 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/10 responded 200 in 9.7715 ms
+2025-01-03 16:28:51.444 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.1320 ms
+2025-01-03 16:28:51.497 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 47.1896 ms
+2025-01-03 16:28:51.503 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0188 ms
+2025-01-03 16:28:51.513 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.7505 ms
+2025-01-03 16:28:54.942 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/8 responded 204 in 0.0900 ms
+2025-01-03 16:28:54.953 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/8 responded 200 in 7.0019 ms
+2025-01-03 16:33:54.951 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/9 responded 204 in 0.0283 ms
+2025-01-03 16:33:55.003 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/9 responded 200 in 46.0242 ms
+2025-01-03 16:34:08.364 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/[object Object] responded 204 in 0.0418 ms
+2025-01-03 16:34:08.368 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/[object Object] responded 404 in 0.1829 ms
+2025-01-03 16:34:11.140 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/[object Object] responded 404 in 0.1024 ms
+2025-01-03 16:34:16.694 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.1014 ms
+2025-01-03 16:34:16.781 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 80.7463 ms
+2025-01-03 16:34:16.787 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0291 ms
+2025-01-03 16:34:16.798 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.8012 ms
+2025-01-03 16:34:25.187 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/15 responded 204 in 0.0269 ms
+2025-01-03 16:34:25.199 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/15 responded 200 in 9.0777 ms
+2025-01-03 16:34:37.282 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/[object Object] responded 204 in 0.0387 ms
+2025-01-03 16:34:37.288 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/[object Object] responded 404 in 0.1383 ms
+2025-01-03 16:35:42.132 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0440 ms
+2025-01-03 16:35:42.159 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 22.0197 ms
+2025-01-03 16:36:29.069 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0173 ms
+2025-01-03 16:36:29.069 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0144 ms
+2025-01-03 16:36:29.105 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 25.4701 ms
+2025-01-03 16:36:29.114 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 9.2431 ms
+2025-01-03 16:36:29.140 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 61.9617 ms
+2025-01-03 16:36:29.144 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 50.5413 ms
+2025-01-03 16:36:29.152 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.7113 ms
+2025-01-03 16:36:29.158 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.1252 ms
+2025-01-03 16:36:35.754 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.1661 ms
+2025-01-03 16:36:35.805 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 46.6225 ms
+2025-01-03 16:36:35.813 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0704 ms
+2025-01-03 16:36:35.821 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 6.6755 ms
+2025-01-03 16:36:39.191 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/12 responded 204 in 0.0807 ms
+2025-01-03 16:36:39.206 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/12 responded 200 in 11.2987 ms
+2025-01-03 16:36:48.235 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/[object Object] responded 204 in 0.0217 ms
+2025-01-03 16:36:48.238 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/[object Object] responded 404 in 0.2339 ms
+2025-01-03 16:37:21.088 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/[object Object] responded 204 in 0.0320 ms
+2025-01-03 16:37:21.093 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/[object Object] responded 404 in 0.0889 ms
+2025-01-03 16:38:03.294 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0202 ms
+2025-01-03 16:38:03.302 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/[object Object] responded 204 in 0.0149 ms
+2025-01-03 16:38:03.307 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/[object Object] responded 404 in 0.1262 ms
+2025-01-03 16:38:03.317 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 14.3711 ms
+2025-01-03 16:38:03.381 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/[object Object] responded 404 in 0.0720 ms
+2025-01-03 16:38:17.281 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0168 ms
+2025-01-03 16:38:17.343 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 54.7590 ms
+2025-01-03 16:38:17.349 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0162 ms
+2025-01-03 16:38:17.356 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 5.0563 ms
+2025-01-03 16:38:22.189 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/28 responded 204 in 0.0247 ms
+2025-01-03 16:38:22.202 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/28 responded 200 in 8.8004 ms
+2025-01-03 16:38:30.909 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/28 responded 204 in 0.0258 ms
+2025-01-03 16:38:31.019 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/28 responded 200 in 106.8023 ms
+2025-01-03 16:38:31.048 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0192 ms
+2025-01-03 16:38:31.066 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 14.0536 ms
+2025-01-03 16:38:31.112 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/[object Object] responded 204 in 0.0203 ms
+2025-01-03 16:38:31.114 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/[object Object] responded 404 in 0.0691 ms
+2025-01-03 16:39:28.544 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0619 ms
+2025-01-03 16:39:28.545 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/28 responded 204 in 0.0187 ms
+2025-01-03 16:39:28.596 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 17.9556 ms
+2025-01-03 16:39:28.598 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/28 responded 200 in 15.2663 ms
+2025-01-03 16:39:28.630 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/28 responded 200 in 3.1381 ms
+2025-01-03 16:45:40.293 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0324 ms
+2025-01-03 16:45:40.299 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0196 ms
+2025-01-03 16:45:40.363 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 54.6205 ms
+2025-01-03 16:45:40.373 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 4.9290 ms
+2025-01-03 16:45:40.398 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 79.2568 ms
+2025-01-03 16:45:40.399 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 96.6511 ms
+2025-01-03 16:45:40.409 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 5.5610 ms
+2025-01-03 16:45:40.415 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 4.5696 ms
+2025-01-03 16:46:09.814 +02:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 0.0274 ms
+2025-01-03 16:46:09.819 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0265 ms
+2025-01-03 16:46:09.841 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 8.5553 ms
+2025-01-03 16:46:09.853 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 9.2635 ms
+2025-01-03 16:46:09.879 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 52.0726 ms
+2025-01-03 16:46:09.889 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 47.4297 ms
+2025-01-03 16:46:09.889 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 4.7182 ms
+2025-01-03 16:46:09.899 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 4.3917 ms
+2025-01-03 16:46:15.852 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/FullNation/25 responded 204 in 0.0233 ms
+2025-01-03 16:46:15.864 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/25 responded 200 in 8.0749 ms
+2025-01-03 16:46:19.754 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/InitiateNation/25 responded 204 in 0.0224 ms
+2025-01-03 16:46:19.780 +02:00 [INF] HTTP PUT /api/CryptoNations/InitiateNation/25 responded 200 in 22.4884 ms
+2025-01-03 16:46:19.808 +02:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0222 ms
+2025-01-03 16:46:19.816 +02:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 4.6481 ms
+2025-01-03 16:46:19.861 +02:00 [INF] HTTP GET /api/CryptoNations/FullNation/25 responded 200 in 4.1591 ms

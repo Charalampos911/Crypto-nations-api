@@ -1,0 +1,317 @@
+
+@use './utilities';
+.NationInitiationForm {
+    color: var(--Grey-font-A);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: 4px solid var(--Grey-200);
+    background-color: var(--Grey-50);
+    transform: scale(1.5);
+    transform-origin: top center;
+    .info{
+      font-size: 24px;
+      color: #41ffff;
+
+    }
+    .uninfo{
+      font-size: 24px;
+      color: #8f5151;
+    }
+    .TheMainCrypto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.7s ease-in-out, opacity 0.4s ease-in-out;
+      opacity: 0;
+    }
+      .ShowInfo{
+        max-height: 500px; /* Set a reasonable value */
+        opacity: 1;
+        transition: max-height 1s ease-in-out, opacity 0.8s ease-in-out;
+      }
+      .HideInfo{
+        max-height: 0px; /* Set a reasonable value */
+      }
+    .NationInitiationFormInner{
+      height: auto;
+      overflow-y: overlay;
+      position: relative;
+    }
+    .ChangeSelection {
+      display: flex;
+      gap: 6px;
+      background-color: var(--Grey-400);
+      width: fit-content;
+      padding: 6px 6px;
+      border-radius: 16px;
+      margin-top: 6px;
+      cursor: pointer;
+      align-items: center;
+      position: absolute;
+      top: 0px;
+      left: 20px;
+      &:hover {
+        background-color: var(--Grey-200);
+      }
+    }
+  
+    .Title {
+      text-align: center;
+      padding: 6px;
+    }
+  
+    .TopFlag {
+      display: flex;
+      justify-content: center;
+      >div{
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 3px solid #cfcfcf;
+        >img{
+          height: 100% !important;
+        }
+      }
+      > div > div:not(.DesInfo) {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 6px;
+        background-color: var(--Grey-50);
+        font-family: emoji;
+        border-radius: 8px 0 0 0;
+      }
+      .DesInfo{
+        position: absolute;
+        top: 6px;
+        left: 6px;
+      }
+    }
+  
+    .Acro {
+      text-indent: 20px;
+    }
+  
+    .Information {
+      margin-left: 20px;
+  
+      > p {
+        margin: 2px;
+        margin-left: 20px;
+      }
+    }
+  
+    .ExtraMessage {
+      margin-left: 40px;
+      padding: 6px;
+      display: flex;
+      font-family: serif;
+  
+      > svg {
+        padding: 2px;
+        margin-right: 4px;
+        color: orange;
+      }
+    }
+  
+    .InitiaFixedlParams {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      > div {
+        display: flex;
+        flex-direction: column;
+  
+        > div {
+          margin-bottom: 10px;
+  
+          > div {
+            margin-bottom: 6px;
+          }
+        }
+      }
+    }
+  
+    .Options {
+      display: flex;
+  
+      > div {
+        padding: 8px;
+        background-color: var(--Grey-200);
+        border-radius: 50%;
+        font-weight: 800;
+        cursor: pointer;
+        height: 80px;
+        width: 80px;
+        background-size: 50%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-origin: border-box;
+        background-clip: content-box;
+        background-blend-mode: multiply;
+        position: relative;
+        &:hover {
+          background-color: var(--Grey-100);
+        }
+  
+        &.Selected {
+          background-color: var(--Grey-600);
+  
+          &:hover {
+            background-color: grey;
+          }
+        }
+  
+        &.Civil:nth-of-type(1) {
+          background-image: url('../eventIcons/Dictatorship.png');
+        }
+  
+        &.Civil:nth-of-type(2) {
+          background-image: url('../eventIcons/denocracy.png');
+        }
+  
+        &.Civil:nth-of-type(3) {
+          background-image: url('../eventIcons/republic.png');
+
+        }
+        &.Guns:nth-of-type(1) {
+          background-image: url('../eventIcons/gunban.png');
+        }
+  
+        &.Guns:nth-of-type(2) {
+          background-image: url('../eventIcons/homedefence.png');
+        }
+  
+        &.Guns:nth-of-type(3) {
+          background-image: url('../eventIcons/opencarry.png');
+
+        }
+        &.Allies:nth-of-type(1) {
+          background-image: url('../eventIcons/solo.png');
+        }
+  
+        &.Allies:nth-of-type(2) {
+          background-image: url('../eventIcons/smallleague.png');
+        }
+  
+        &.Allies:nth-of-type(3) {
+          background-image: url('../eventIcons/intercontinental.png');
+
+        }
+        > div {
+          font-family: math;
+          text-transform: uppercase;
+          font-size: 10px;
+          letter-spacing: 1px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 96px;
+          text-align: center;
+          >div{ 
+            position: relative;
+            top: -48px;
+            width: 100%;
+            height: 0px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          > span {
+            position: absolute;
+            font-size: 6px;
+            width: 96px;
+            height: 80px;
+            transform-origin: 50% 50%;
+          }
+          }
+        }
+      }
+    }
+  
+    .InitiateTheNation {
+      @extend %Process-Button;
+    }
+  }
+
+
+
+
+
+@media only screen and (max-width: 1100px) and (min-width: 1000px) {
+  .NationInitiationForm  {
+    transform: scale(1.2);
+  }
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+  .NationInitiationForm  {
+    transform: scale(1.1);
+  }
+
+}
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+  .NationInitiationForm  {
+    transform: scale(0.7);
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 400px) {
+  .NationInitiationForm  {
+    transform: scale(.9);
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+  .NationInitiationForm  {
+    transform: scale(.9);
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 300px) and (min-width: 200px) {
+  .NationInitiationForm  {
+    transform: scale(.9);
+    width: 250px;
+  }
+}
+
+//height 
+@media only screen and (max-height: 950px) and (min-width: 850px) {
+  .NationInitiationForm  {
+    transform: scale(1.3);
+    width: 450px;
+  }
+}
+@media only screen and (max-height: 850px) and (min-width: 750px) {
+  .NationInitiationForm  {
+    transform: scale(1.2);
+
+  }
+}
+@media only screen and (max-height: 750px) and (min-width: 700px) {
+  .NationInitiationForm  {
+    transform: scale(1.1);
+  }
+}
+@media only screen and (max-height: 700px) and (min-width: 650px) {
+  .NationInitiationForm  {
+    transform: scale(1);
+  }
+}
+@media only screen and (max-height: 700px) and (min-width: 650px) {
+  .NationInitiationForm  {
+    transform: scale(1);
+    width: 900px;
+  }
+  .NationInitiationForm .InitiaFixedlParams > div{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

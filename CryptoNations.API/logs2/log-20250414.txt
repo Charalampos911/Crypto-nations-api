@@ -1,0 +1,26 @@
+2025-04-14 00:32:21.672 +03:00 [INF] Now listening on: http://0.0.0.0:5000
+2025-04-14 00:32:21.708 +03:00 [INF] Now listening on: https://0.0.0.0:5001
+2025-04-14 00:32:21.712 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-14 00:32:21.727 +03:00 [INF] Hosting environment: Development
+2025-04-14 00:32:21.748 +03:00 [INF] Content root path: C:\Users\haralabos911\Desktop\CryptoNations-Back-API\Solution-master\Solution-master\CryptoNations.API
+2025-04-14 10:27:52.907 +03:00 [INF] Now listening on: http://0.0.0.0:5000
+2025-04-14 10:27:52.925 +03:00 [INF] Now listening on: https://0.0.0.0:5001
+2025-04-14 10:27:52.926 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-14 10:27:52.927 +03:00 [INF] Hosting environment: Development
+2025-04-14 10:27:52.927 +03:00 [INF] Content root path: C:\Users\haralabos911\Desktop\Back-API-CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2025-04-14 10:29:01.491 +03:00 [INF] Now listening on: http://0.0.0.0:5000
+2025-04-14 10:29:01.507 +03:00 [INF] Now listening on: https://0.0.0.0:5001
+2025-04-14 10:29:01.508 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-14 10:29:01.509 +03:00 [INF] Hosting environment: Development
+2025-04-14 10:29:01.510 +03:00 [INF] Content root path: C:\Users\haralabos911\Desktop\Back-API-CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2025-04-14 10:36:59.553 +03:00 [INF] Now listening on: http://localhost:5249
+2025-04-14 10:36:59.569 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-14 10:36:59.570 +03:00 [INF] Hosting environment: Development
+2025-04-14 10:36:59.570 +03:00 [INF] Content root path: C:\Users\haralabos911\Desktop\Back-API-CryptoNations\Solution-master\Solution-master\CryptoNations.API
+2025-04-14 10:37:12.489 +03:00 [INF] HTTP GET / responded 404 in 27.2327 ms
+2025-04-14 10:37:18.168 +03:00 [INF] HTTP GET / responded 404 in 0.8926 ms
+2025-04-14 10:50:55.022 +03:00 [INF] Application is shutting down...
+2025-04-14 11:10:46.255 +03:00 [INF] Now listening on: http://localhost:5249
+2025-04-14 11:10:49.092 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-14 11:10:49.093 +03:00 [INF] Hosting environment: Development
+2025-04-14 11:10:49.093 +03:00 [INF] Content root path: C:\Users\haralabos911\Desktop\Back-API-CryptoNations\Solution-master\CryptoNations\CryptoNations.API

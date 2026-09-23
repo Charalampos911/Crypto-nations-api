@@ -1,0 +1,35 @@
+2026-09-11 13:13:11.977 +03:00 [INF] Now listening on: http://0.0.0.0:5000
+2026-09-11 13:13:12.009 +03:00 [INF] Now listening on: https://0.0.0.0:5001
+2026-09-11 13:13:12.052 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-11 13:13:12.053 +03:00 [INF] Hosting environment: Development
+2026-09-11 13:13:12.054 +03:00 [INF] Content root path: C:\Users\Babis\Desktop\letscode2026\Solution-master\CryptoNations\CryptoNations.API
+2026-09-11 16:01:48.424 +03:00 [INF] Now listening on: http://0.0.0.0:5000
+2026-09-11 16:01:48.450 +03:00 [INF] Now listening on: https://0.0.0.0:5001
+2026-09-11 16:01:48.487 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-11 16:01:48.488 +03:00 [INF] Hosting environment: Development
+2026-09-11 16:01:48.488 +03:00 [INF] Content root path: C:\Users\Babis\Desktop\letscode2026\Solution-master\CryptoNations\CryptoNations.API
+2026-09-11 16:04:36.679 +03:00 [INF] HTTP GET /api/v1/Regions responded 401 in 52.6193 ms
+2026-09-11 16:04:58.861 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-09-11 16:04:58.864 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-09-11 16:05:01.768 +03:00 [INF] HTTP GET /api/Walks responded 200 in 3919.6196 ms
+2026-09-11 16:05:15.591 +03:00 [INF] HTTP GET /WeatherForecast responded 200 in 11.4113 ms
+2026-09-11 16:22:41.067 +03:00 [INF] Now listening on: http://0.0.0.0:5000
+2026-09-11 16:22:41.095 +03:00 [INF] Now listening on: https://0.0.0.0:5001
+2026-09-11 16:22:41.136 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-11 16:22:41.137 +03:00 [INF] Hosting environment: Development
+2026-09-11 16:22:41.138 +03:00 [INF] Content root path: C:\Users\Babis\Desktop\letscode2026\Solution-master\CryptoNations\CryptoNations.API
+2026-09-11 22:36:55.727 +03:00 [INF] Now listening on: http://0.0.0.0:5000
+2026-09-11 22:36:55.753 +03:00 [INF] Now listening on: https://0.0.0.0:5001
+2026-09-11 22:36:55.791 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-11 22:36:55.792 +03:00 [INF] Hosting environment: Development
+2026-09-11 22:36:55.793 +03:00 [INF] Content root path: C:\Users\Babis\Desktop\letscode2026\Solution-master\CryptoNations\CryptoNations.API
+2026-09-11 22:39:42.919 +03:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 3.0049 ms
+2026-09-11 22:39:42.919 +03:00 [INF] HTTP OPTIONS /api/v1/Auth/Login responded 204 in 2.9971 ms
+2026-09-11 22:39:45.652 +03:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 2722.9502 ms
+2026-09-11 22:39:45.652 +03:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 2722.9565 ms
+2026-09-11 22:39:45.663 +03:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0965 ms
+2026-09-11 22:39:45.663 +03:00 [INF] HTTP OPTIONS /api/CryptoNations/NationsWithQuery responded 204 in 0.0959 ms
+2026-09-11 22:39:46.076 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-09-11 22:39:46.078 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-09-11 22:39:46.198 +03:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 525.9709 ms
+2026-09-11 22:39:46.210 +03:00 [INF] HTTP GET /api/CryptoNations/NationsWithQuery responded 200 in 11.5115 ms

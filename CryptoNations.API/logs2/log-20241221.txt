@@ -1,0 +1,102 @@
+2024-12-21 05:09:13.198 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-21 05:09:13.214 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-21 05:09:13.215 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-21 05:09:13.215 +02:00 [INF] Hosting environment: Development
+2024-12-21 05:09:13.216 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-21 05:09:47.431 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1336.3733 ms
+2024-12-21 05:10:34.883 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/15 responded 200 in 467.0340 ms
+2024-12-21 05:11:07.331 +02:00 [INF] HTTP POST /api/Base/SellOrder/09cdd7db-ddc5-4a4d-94e5-10d14f479f73 responded 400 in 27.4192 ms
+2024-12-21 05:11:20.672 +02:00 [INF] HTTP POST /api/Base/SellOrder/09cdd7db-ddc5-4a4d-94e5-10d14f479f73 responded 400 in 4.2092 ms
+2024-12-21 05:11:59.865 +02:00 [INF] HTTP POST /api/Base/SellOrder/09cdd7db-ddc5-4a4d-94e5-10d14f479f73 responded 400 in 3.3380 ms
+2024-12-21 05:13:06.729 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-21 05:13:06.745 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-21 05:13:06.746 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-21 05:13:06.746 +02:00 [INF] Hosting environment: Development
+2024-12-21 05:13:06.747 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-21 05:13:20.339 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1169.5801 ms
+2024-12-21 05:15:10.389 +02:00 [INF] HTTP POST /api/Base/SellOrder/09cdd7db-ddc5-4a4d-94e5-10d14f479f73 responded 200 in 36706.7025 ms
+2024-12-21 05:15:30.975 +02:00 [INF] HTTP GET /api/Base/GetNationalPortfolio/32 responded 200 in 36.9053 ms
+2024-12-21 05:16:11.920 +02:00 [INF] HTTP POST /api/Base/SellOrder/6b882322-0bc8-423c-9b82-95510570ec10 responded 200 in 3114.4052 ms
+2024-12-21 05:16:26.637 +02:00 [INF] HTTP GET /api/Base/GetNationalSellOrders/32 responded 200 in 19.3840 ms
+2024-12-21 05:17:18.079 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-21 05:17:18.096 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-21 05:17:18.097 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-21 05:17:18.098 +02:00 [INF] Hosting environment: Development
+2024-12-21 05:17:18.098 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-21 05:17:33.496 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1166.3055 ms
+2024-12-21 05:17:53.735 +02:00 [INF] HTTP GET /api/Base/GetNationalSellOrders/32 responded 200 in 472.8996 ms
+2024-12-21 05:18:10.961 +02:00 [INF] HTTP GET /api/Base/GetOtherSellOrders/32 responded 200 in 21.5193 ms
+2024-12-21 05:22:15.897 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-21 05:22:15.912 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-21 05:22:15.914 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-21 05:22:15.914 +02:00 [INF] Hosting environment: Development
+2024-12-21 05:22:15.915 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-21 05:22:28.012 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1160.0669 ms
+2024-12-21 05:22:56.462 +02:00 [ERR] HTTP GET /api/Base/GetOtherSellOrders/32 responded 500 in 501.3700 ms
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[CryptoNations.API.Models.Domain.CryptoNationsModels.CryptoModel, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.OtherSellOrderDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CryptoModel -> OtherSellOrderDto
+CryptoNations.API.Models.Domain.CryptoNationsModels.CryptoModel -> CryptoNations.API.Models.DTO.CryptoNationsDtos.OtherSellOrderDto
+   at lambda_method310(Closure, CryptoModel, OtherSellOrderDto, ResolutionContext)
+   at lambda_method309(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method309(Closure, Object, List`1, ResolutionContext)
+   at CryptoNations.API.Controllers.BaseController.GetOtherSellOrders(Int32 id) in C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Controllers\CryptoNations\BaseController.cs:line 220
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-12-21 05:22:56.527 +02:00 [ERR] dcb843dc-c5b5-4809-b69c-1ebb60fb5005 : Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[CryptoNations.API.Models.Domain.CryptoNationsModels.CryptoModel, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.OtherSellOrderDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[CryptoNations.API.Models.Domain.CryptoNationsModels.CryptoModel, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[CryptoNations.API.Models.DTO.CryptoNationsDtos.OtherSellOrderDto, CryptoNations.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CryptoModel -> OtherSellOrderDto
+CryptoNations.API.Models.Domain.CryptoNationsModels.CryptoModel -> CryptoNations.API.Models.DTO.CryptoNationsDtos.OtherSellOrderDto
+   at lambda_method310(Closure, CryptoModel, OtherSellOrderDto, ResolutionContext)
+   at lambda_method309(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method309(Closure, Object, List`1, ResolutionContext)
+   at CryptoNations.API.Controllers.BaseController.GetOtherSellOrders(Int32 id) in C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Controllers\CryptoNations\BaseController.cs:line 220
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at CryptoNations.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API\Middlewares\ExceptionHandlerMiddleware.cs:line 23
+2024-12-21 05:23:30.731 +02:00 [INF] Now listening on: https://localhost:7081
+2024-12-21 05:23:30.748 +02:00 [INF] Now listening on: http://localhost:5249
+2024-12-21 05:23:30.749 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-21 05:23:30.750 +02:00 [INF] Hosting environment: Development
+2024-12-21 05:23:30.750 +02:00 [INF] Content root path: C:\Users\haralabos911\Desktop\VS-letscode2025\CryptoNations\CryptoNations-Solution-master\CryptoNations-Solution-master\CryptoNations.API
+2024-12-21 05:23:45.110 +02:00 [INF] HTTP POST /api/v1/Auth/Login responded 200 in 1167.9786 ms
+2024-12-21 05:24:30.477 +02:00 [INF] HTTP GET /api/Base/GetOtherSellOrders/32 responded 200 in 533.3842 ms
